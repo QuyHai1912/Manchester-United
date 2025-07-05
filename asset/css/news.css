@@ -525,11 +525,11 @@
     background-color: white;
     border-radius: 10px;
     overflow: hidden;
-    background-image: url('/asset/img/bacckgb-premier.jpg');
+    background-image: url('../asset/img/bacckgb-premier.jpg');
 }
 
 .fixtures__premier--logo {
-    background-image: url('/asset/img/Premier-League-background.webp');
+    background-image: url('../asset/img/Premier-League-background.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
