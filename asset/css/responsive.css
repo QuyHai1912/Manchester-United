@@ -221,6 +221,12 @@
     }
 }
 
+@media (max-width: 440px) {
+    .champion--text {
+        width: 300px;
+    }
+}
+
 /* tablet & pc */
 
 @media (min-width: 740px){
