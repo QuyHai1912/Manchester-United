@@ -1,0 +1,258 @@
+:root {
+    --primary-color: #ff0300;
+    --white-color: #ffffff;
+    --black-color:#000000;
+    --width-item: 350px;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+/* body {
+    background-image: linear-gradient(to bottom, #9e1b32, #000000);
+} */
+
+
+html {
+    font-size: 62.5%;
+    line-height: 16px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+/* .app {
+    width: 1320px;
+    margin: 0 auto;
+} */
+
+.hidden {
+    display: none !important;
+}
+
+@keyframes headerNotify{
+    from{
+        opacity: 0;
+        transform: scale(0);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes barRunning {
+    0%{
+        width: var(--bar-width);
+    }
+    10%{
+        width: 2px;
+    }
+    100% {
+        width: var(--bar-width);
+    }
+}
+
+@keyframes showModal {
+    from{
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.6);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+/* modal */
+.modal {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+.overlay__modal {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    filter: blur(10px);
+}
+
+.modal__register,
+.modal__login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 550px;
+    animation: showModal 0.5s ease;
+    border-radius: 15px;
+}
+
+.form__register {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form__head--tranfer {
+    padding: 10px 20px 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.head--main {
+    display: block;
+    font-size: 3rem;
+    line-height: 3rem;
+    color: red;
+    font-weight: 700;
+}
+
+.head--extra {
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #222;
+    cursor: pointer;
+}
+
+.head--extra:hover {
+    color: rgb(99, 99, 99);
+}
+
+.head--text {
+    font-size: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form--group {
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    margin: 15px 0;
+}
+
+.form--label {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 600;
+}
+
+.form--control {
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid rgb(143, 143, 143);
+}
+
+
+.form--message {
+
+}
+
+.form--title {
+    display: inline-flex;
+    padding-left: 50px;
+    line-height: 1.6rem;
+    font-size: 1.4rem;
+    padding-bottom: 3px;
+    margin-bottom: 20px;
+}
+
+.form--title-check {
+    margin-right: 5px;
+}
+
+.form__btn--confirm {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 50px;
+    height: 60px;
+    align-items: center;
+}
+.modal__login  .form__btn--confirm {
+    margin-top: 75px;
+}
+
+.confirm--btn {
+    height: 40px;
+    width: 120px;
+    font-size: 2rem;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.confirm--btn:hover {
+    opacity: 0.7;
+}
+
+.form--back {
+    background-color: #dadada;
+}
+
+.form--submit {
+    background-color: red;
+    color: white;
+}
+
+.form--social {
+    padding: 0 50px;
+    margin: 10px 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social--item {
+    display: inline-flex;
+    width: 48%;
+    background-color: #ededed;
+    justify-content: center;
+    height: 30px;
+    border-radius: 5px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.social--item:hover {
+    opacity: 0.8;
+}
+
+.social--facebook {
+    background-color: rgb(58, 58, 227);
+}
+
+.social--icon {
+    font-size: 1.4rem;
+    color: white;
+}
+
+.social--text {
+    padding-left: 20px;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+}
+
+.social--facebook > .social--text {
+    color: white;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,215 @@
+/* mobile & tablet */
+@media (max-width: 1024px){
+    .hide--on-mobile-tablet {
+        display: none !important;
+    }
+
+    /* ---------filter-jerseys--------- */
+    .filterJerseys {
+        flex-direction: column;
+        align-content: center;
+    }
+    .filterForm {
+        margin-top: 10px;
+    }
+}
+/* tablet */
+
+@media (min-width: 740px) and (max-width: 1024px){
+    .hide--on-tablet {
+        display: none;
+    }
+
+    /* ---------category------- */
+    .catygory__logo--text {
+        font-size: 2rem;
+    }
+    
+    .category__list-seach {
+        padding-left: 20px;
+    }
+
+    /* --------jerseys---------- */
+
+    .jerseys__item--contain {
+        height: 370px;
+    }
+
+    /* -------------filter-jerseys--------- */
+
+
+    /* ------------fashion----------- */
+    .fashion__outstand--banner {
+        
+    }
+
+    .fashion__item--content {
+        height: 600px;
+    }
+
+    /* -------------accessories------------ */
+    .acceessories__contain {
+        height: 1150px;
+    }
+
+}
+/* mobile */
+@media (max-width: 740px){
+    .hide--on-mobile {
+        display: none;
+    }
+
+    /* -----------category----------- */
+    .category__list {
+        flex-wrap: wrap;
+    }
+
+    .category__seach {
+        display: none;
+    }
+
+    .category__item--link {
+        font-size: 1.4rem;
+    }
+
+    /* ----------jerseys------------ */
+    .jerseys__item--contain {
+        height: 250px;
+    }
+
+    .jerseys__heading {
+        font-size: 1.8rem;
+    }
+
+    /* --------filter-jerseys---------- */
+    .filterJerseys {
+        padding: 20px 10px 20px 20px;
+    }
+    
+    .filterform__model--list {
+        width: 100%;
+    }
+
+    .filterform__size--item {
+        width: 60px;
+        height: 30px;
+    }
+
+    .uniform__list--bg {
+        width: 95%;
+    }
+
+    .uniform__list--img {
+        width: 95%;
+    }
+
+    .filterform__head {
+        font-size: 2rem;
+        line-height: 2.4rem;
+    }
+
+    .filterform__model--label {
+        padding-top: 0;
+    }
+
+    /* --------trainningwear---------- */
+    .trainning--head {
+        font-size: 3rem;
+    }
+
+    /* -------------fashion--------------- */
+    .fashion__outstand--banner.col {
+        height: 210px;
+    }
+    
+    .fashion__outstand--banner-head {
+        padding-left: 20px;
+        font-size: 2.2rem;
+        margin-bottom: 10px;
+    }
+
+    .fashion__outstand--banner-text {
+        padding: 0 20px;
+        font-size: 1.4rem;
+        margin-bottom: 10px;
+    }
+
+    .fashion__contain--head {
+        font-size: 2.4rem;
+        line-height: 2.4rem;
+        height: 30px;
+        margin-bottom: 0;
+    }
+
+    .fashion__item--content {
+        height: 400px;
+    }
+
+    .fashion__contain--name {
+        font-size: 3rem;
+    }
+
+    .fashion__item--title {
+        top: 10px;
+        left: 10px;
+    }
+
+    /* -----------accessories --------------*/
+    .acceessories__contain {
+        height: 500px;
+        grid-column-gap: 8px;
+        grid-row-gap: 8px;
+    }
+
+    .accessories__contain--item:hover {
+        transform: translateY(-6px);
+    }
+
+    /* --------------sponsor------------ */
+    .sponsor--title {
+        font-size: 5rem;
+        line-height: 6rem;
+        margin-bottom: 50px;
+    }
+
+    .sponsor__list {
+        height: 100px;
+    }
+}
+
+/* tablet & pc */
+
+@media (min-width: 740px){
+    
+}
+
+/* hide-on-pc */
+@media (min-width: 1024.1px){
+    .hide--on-pc-all {
+        display: none !important;
+    }
+}
+
+/* pc-low */
+
+@media (min-width: 1024.1px) and (max-width: 1380px){
+    .hide--on-pc-low {
+        display: none;
+    }
+}
+
+/* pc */
+@media (max-width: 1113px) and (min-width: 1024.1px){
+    .hide--on-pc {
+        display: none;
+    }
+
+    /*  */
+}
+
+
+/* pc High configuration */
+
+@media (min-width: 1380.1px){
+    
+}

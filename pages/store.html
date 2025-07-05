@@ -1,0 +1,2291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manchester United</title>
+    <link rel="icon" href="../asset/img/logotitle.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="../asset/css/base.css" />
+    <link rel="stylesheet" href="../asset/css/main.css" />
+    <link rel="stylesheet" href="../asset/css/store.css" />
+    <link rel="stylesheet" href="../asset/css/grid.css" />
+    <link rel="stylesheet" href="../asset/font/fontawesome-free-6.7.1-web/css/all.min.css"/>
+    <link rel="stylesheet" href="../asset/css/responsive.css">
+    <link rel="stylesheet" href="../asset/css/responStore.css">
+  </head>
+
+  <body>
+    <div class="app">
+      <!-- ✅ NAVBAR độc lập -->
+      <nav class="nav__bar">
+
+            <!-- logo -->
+            <div class="nav__logo">
+                <img class="nav__logo--img" src="../asset/img/logo.png" alt="logo">
+            </div>
+
+            <!-- Greeting & category -->
+            <div class="nav__right">
+                <div class="nav__greeting">  
+                    <h1 class="greeting--text hide--on-mobile"><span class="hide--on-mobile-tablet">Welcom to</span> Manchester United</h1>
+                    <!-- hidden -->
+                    <div class="nav__user hidden">
+                        <a class="nav__user--item user--item-register">
+                            <i class="user--item-icon fa-solid fa-user-tie"></i>
+                            <span class="user--text ">Register</span>
+                        </a>
+                        <a class="nav__user--item user--item-login">
+                            <i class="user--item-icon fa-solid fa-user-tie"></i>
+                            <span class="user--text ">Login</span>
+                        </a>
+                    </div>
+                    <!-- hidden -->
+                    <div class="nav__user">
+                        <a class="nav__user--item">
+                            <i class="user--item-icon fa-solid fa-user-tie"></i>
+                            <span class="user--text">Quy</span>
+                            <ul class="user__list">
+                                <li class="user__list--item">Cart</li>
+                                <li class="user__list--item">Log Out</li>
+                            </ul>
+                        </a>
+                        <!-- <a href="" class="nav__users hidden"><i class="user--icon fa-solid fa-user-tie"></i></a> -->
+                    </div>
+                </div>
+
+                <div class="nav__bottom">
+                    <span class="nav__preface hide--on-mobile-tablet">
+                        The strongest team in English history
+                    </span>
+                    <ul class="nav__category">
+                        <!-- active - làm nổi bật ppage đang mở --> 
+                        <li class="category--items">
+                            <a href="../index.html" class="category--item"><i class="category--item-icon fa-solid fa-house"></i>Home</a>
+                        </li>
+                        <li class="category--items">
+                            <a href="player.html" class="category--item"><i class="category--item-icon fa-solid fa-users"></i>Player</a>
+                        </li>
+                        <li class="category--items">
+                            <a href="news.html" class="category--item"><i class="category--item-icon fa-solid fa-newspaper"></i>News</a>
+                        </li>
+                        <li class="category--items">
+                            <a href="store.html" class="category--item active"><i class="category--item-icon fa-solid fa-shop"></i>Store</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="nav__crossbar"></div>
+            </div>
+        </nav>
+      <!-- Category-shop -->
+       <nav class="category">
+        <div class="category__logo">
+            <span class="catygory__logo--text hide--on-mobile">UNITED</span>
+            <img class="catygory__logo--img" src="/asset/img/STORE/images.png" alt="">
+            <span class="catygory__logo--text hide--on-mobile">STORE</span>
+        </div>
+        <div class="category__list-seach">
+            <ul class="category__list">
+                <li class="category__list--item"><a href="#jerseys" class="category__item--link">Jerseys</a></li>
+                <li class="category__list--item"><a href="#trainningwear" class="category__item--link">Trainingwear</a></li>
+                <li class="category__list--item"><a href="#fashion" class="category__item--link">Fashion</a></li>
+                <li class="category__list--item"><a href="#accessories" class="category__item--link">Accessories & Gilfs</a></li>
+            </ul>
+            <div class="category__seach">
+                <input class="category__seach--input hide--on-mobile-tablet" type="text" placeholder="Seach in store...">
+                <span class="category__seach--btn"><i class="category__seach--icon fa-solid fa-magnifying-glass"></i></span>
+            </div>
+        </div>
+       </nav>
+      <!-- Main -->
+      <main class="store">
+        <!-- jerseys -->
+        <div id="jerseys" class="jerseys">
+            <div class="jerseys__header">
+              <h2 class="jerseys__heading">2025/26 Home Kit</h2>  
+              <div class="jerseys__home--btn">
+                <span class="slider--btn slider--btn-left"><i class="slider--btn--icon fa-solid fa-chevron-down fa-rotate-90"></i></span>
+                <span class="slider--btn slider--btn-right"><i class="slider--btn--icon fa-solid fa-chevron-down fa-rotate-270"></i></span>
+              </div>
+            </div>
+            <div class="jerseys__home"> 
+              <ul class="jerseys__home--list sliderScrollball"> 
+                <li class="jerseys__home--item col l-3 m-4 c-6">
+                  <div class="jerseys__item--contain">
+                    
+                    <div class="jerseys__contain--bg" style="background-image:url('../asset/img/STORE/jerseys/fullhomejerseys-removebg-preview.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                    <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                    <ul class="jerseys__item--size">
+                      <li class="jersey__size--item">M</li>
+                      <li class="jersey__size--item">S</li>
+                      <li class="jersey__size--item">L</li>
+                      <li class="jersey__size--item">XL</li>
+                      <li class="jersey__size--item">2XL</li>
+                      <li class="jersey__size--item">3XL</li>
+                    </ul>
+                    <div class="btn--inneritem filterform__btn">
+                      <button class="filterform__btn--buy">CUSTOMISE</button>
+                      <button class="filterform__btn--add">ADD TO BASKET</button>
+                    </div>
+                    <span class="jerseys__item--new">New</span>
+                  </div>
+                  <div class="jerseys__item--title">
+                    <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                    <span class="jerseys__item--name">Manchester United 25/26 Home Jersey</span>
+                  </div>
+                </li>
+                <li class="jerseys__home--item col l-3 m-4 c-6">
+                  <div class="jerseys__item--contain">
+                    
+                    <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/jerseys/gkjerseyadidas-removebg-preview.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                    <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                    <ul class="jerseys__item--size">
+                      <li class="jersey__size--item">M</li>
+                      <li class="jersey__size--item">S</li>
+                      <li class="jersey__size--item">L</li>
+                      <li class="jersey__size--item">XL</li>
+                      <li class="jersey__size--item">2XL</li>
+                      <li class="jersey__size--item">3XL</li>
+                    </ul>
+                    <div class="btn--inneritem filterform__btn">
+                      <button class="filterform__btn--buy">CUSTOMISE</button>
+                      <button class="filterform__btn--add">ADD TO BASKET</button>
+                    </div>
+                    <span class="jerseys__item--new">New</span>
+                  </div>
+                  <div class="jerseys__item--title">
+                    <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                    <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+                  </div>
+                </li>
+                <li class="jerseys__home--item col l-3 m-4 c-6">
+                  <div class="jerseys__item--contain">
+                    
+                    <div class="jerseys__contain--bg" style="background-image:url('../asset/img/STORE/jerseys/shorthomejerseys-removebg-preview.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                    <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                    <ul class="jerseys__item--size">
+                      <li class="jersey__size--item">M</li>
+                      <li class="jersey__size--item">S</li>
+                      <li class="jersey__size--item">L</li>
+                      <li class="jersey__size--item">XL</li>
+                      <li class="jersey__size--item">2XL</li>
+                      <li class="jersey__size--item">3XL</li>
+                    </ul>
+                    <div class="btn--inneritem filterform__btn">
+                      <button class="filterform__btn--buy">CUSTOMISE</button>
+                      <button class="filterform__btn--add">ADD TO BASKET</button>
+                    </div>
+                    <span class="jerseys__item--new">New</span>
+                  </div>
+                  <div class="jerseys__item--title">
+                    <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>120</span>
+                    <span class="jerseys__item--name">Manchester United 25/26 Home Authentic Jersey</span>
+                  </div>
+                </li> 
+                <li class="jerseys__home--item col l-3 m-4 c-6">
+                  <div class="jerseys__item--contain">
+                    
+                    <div class="jerseys__contain--bg" style="background-image:url('../asset/img/STORE/jerseys/longhomejerseys-removebg-preview.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                    <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                    <ul class="jerseys__item--size">
+                      <li class="jersey__size--item">M</li>
+                      <li class="jersey__size--item">S</li>
+                      <li class="jersey__size--item">L</li>
+                      <li class="jersey__size--item">XL</li>
+                      <li class="jersey__size--item">2XL</li>
+                      <li class="jersey__size--item">3XL</li>
+                    </ul>
+                    <div class="btn--inneritem filterform__btn">
+                      <button class="filterform__btn--buy">CUSTOMISE</button>
+                      <button class="filterform__btn--add">ADD TO BASKET</button>
+                    </div>
+                    <span class="jerseys__item--new">New</span>
+                  </div>
+                  <div class="jerseys__item--title">
+                    <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>130</span>
+                    <span class="jerseys__item--name">Manchester United 25/26 Home Long Sleeve Jersey</span>
+                  </div>
+                </li>
+                <li class="jerseys__home--item col l-3 m-4 c-6">
+                  <div class="jerseys__item--contain">
+                    
+                    <div class="jerseys__contain--bg" style="background-image:url('../asset/img/STORE/jerseys/fullawayjerseys-removebg-preview.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                    <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                    <ul class="jerseys__item--size">
+                      <li class="jersey__size--item">M</li>
+                      <li class="jersey__size--item">S</li>
+                      <li class="jersey__size--item">L</li>
+                      <li class="jersey__size--item">XL</li>
+                      <li class="jersey__size--item">2XL</li>
+                      <li class="jersey__size--item">3XL</li>
+                    </ul>
+                    <div class="btn--inneritem filterform__btn">
+                      <button class="filterform__btn--buy">CUSTOMISE</button>
+                      <button class="filterform__btn--add">ADD TO BASKET</button>
+                    </div>
+                    <span class="jerseys__item--new">New</span>
+                  </div>
+                  <div class="jerseys__item--title">
+                    <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>139</span>
+                    <span class="jerseys__item--name">Manchester United 25/26 Away Jersey</span>
+                  </div>
+                </li>
+                <li class="jerseys__home--item col l-3 m-4 c-6">
+                  <div class="jerseys__item--contain">
+                    
+                    <div class="jerseys__contain--bg" style="background-image:url('../asset/img/STORE/jerseys/fulljerseys3-removebg-preview.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                    <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                    <ul class="jerseys__item--size">
+                      <li class="jersey__size--item">M</li>
+                      <li class="jersey__size--item">S</li>
+                      <li class="jersey__size--item">L</li>
+                      <li class="jersey__size--item">XL</li>
+                      <li class="jersey__size--item">2XL</li>
+                      <li class="jersey__size--item">3XL</li>
+                    </ul>
+                    <div class="btn--inneritem filterform__btn">
+                      <button class="filterform__btn--buy">CUSTOMISE</button>
+                      <button class="filterform__btn--add">ADD TO BASKET</button>
+                    </div>
+                    <span class="jerseys__item--new">New</span>
+                  </div>
+                  <div class="jerseys__item--title">
+                    <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                    <span class="jerseys__item--name">Manchester United 25/26 Third Jersey</span>
+                  </div>
+                </li>
+                <li class="jerseys__home--item col l-3 m-4 c-6">
+                  <div class="jerseys__item--contain">
+                    
+                    <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/jerseys/homeshortsblack-removebg-preview.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                    <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                    <ul class="jerseys__item--size">
+                      <li class="jersey__size--item">M</li>
+                      <li class="jersey__size--item">S</li>
+                      <li class="jersey__size--item">L</li>
+                      <li class="jersey__size--item">XL</li>
+                      <li class="jersey__size--item">2XL</li>
+                      <li class="jersey__size--item">3XL</li>
+                    </ul>
+                    <div class="btn--inneritem filterform__btn">
+                      <button class="filterform__btn--buy">CUSTOMISE</button>
+                      <button class="filterform__btn--add">ADD TO BASKET</button>
+                    </div>
+                    <span class="jerseys__item--new">New</span>
+                  </div>
+                  <div class="jerseys__item--title">
+                    <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                    <span class="jerseys__item--name">Manchester United 25/26 Home Shorts Black</span>
+                  </div>
+                </li>
+                <li class="jerseys__home--item col l-3 m-4 c-6">
+                  <div class="jerseys__item--contain">
+                    
+                    <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/jerseys/homeshortwhite-removebg-preview.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                    <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                    <ul class="jerseys__item--size">
+                      <li class="jersey__size--item">M</li>
+                      <li class="jersey__size--item">S</li>
+                      <li class="jersey__size--item">L</li>
+                      <li class="jersey__size--item">XL</li>
+                      <li class="jersey__size--item">2XL</li>
+                      <li class="jersey__size--item">3XL</li>
+                    </ul>
+                    <div class="btn--inneritem filterform__btn">
+                      <button class="filterform__btn--buy">CUSTOMISE</button>
+                      <button class="filterform__btn--add">ADD TO BASKET</button>
+                    </div>
+                    <span class="jerseys__item--new">New</span>
+                  </div>
+                  <div class="jerseys__item--title">
+                    <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                    <span class="jerseys__item--name">Manchester United 25/26 Home Shorts White</span>
+                  </div>
+                </li>
+                <li class="jerseys__home--item col l-3 m-4 c-6">
+                  <div class="jerseys__item--contain">
+                    
+                    <div class="jerseys__contain--bg" style="background-image:url('../asset/img/STORE/jerseys/direcrwhite-removebg-preview.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                    <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                    <ul class="jerseys__item--size">
+                      <li class="jersey__size--item">M</li>
+                      <li class="jersey__size--item">S</li>
+                      <li class="jersey__size--item">L</li>
+                      <li class="jersey__size--item">XL</li>
+                      <li class="jersey__size--item">2XL</li>
+                      <li class="jersey__size--item">3XL</li>
+                    </ul>
+                    <div class="btn--inneritem filterform__btn">
+                      <button class="filterform__btn--buy">CUSTOMISE</button>
+                      <button class="filterform__btn--add">ADD TO BASKET</button>
+                    </div>
+                    <span class="jerseys__item--new">New</span>
+                  </div>
+                  <div class="jerseys__item--title">
+                    <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>70</span>
+                    <span class="jerseys__item--name">Manchester United 25/26 Home Socks White</span>
+                  </div>
+                </li>
+                <li class="jerseys__home--item col l-3 m-4 c-6">
+                  <div class="jerseys__item--contain">
+                    
+                    <div class="jerseys__contain--bg" style="background-image:url('../asset/img/STORE/jerseys/directblack_-removebg-preview.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                    <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                    <ul class="jerseys__item--size">
+                      <li class="jersey__size--item">M</li>
+                      <li class="jersey__size--item">S</li>
+                      <li class="jersey__size--item">L</li>
+                      <li class="jersey__size--item">XL</li>
+                      <li class="jersey__size--item">2XL</li>
+                      <li class="jersey__size--item">3XL</li>
+                    </ul>
+                    <div class="btn--inneritem filterform__btn">
+                      <button class="filterform__btn--buy">CUSTOMISE</button>
+                      <button class="filterform__btn--add">ADD TO BASKET</button>
+                    </div>
+                    <span class="jerseys__item--new">New</span>
+                  </div>
+                  <div class="jerseys__item--title">
+                    <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>70</span>
+                    <span class="jerseys__item--name">Manchester United 25/26 Home Socks Black</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+        </div>
+        <!-- filter jersey -->
+        <div class="filterJerseys">
+          <div class="uniform__list l-6 m-12">
+            <div class="uniform__list--bg" style="background-image: url('../asset/img/STORE/filter/0.avif');"></div>
+            <div class="uniform__list--img hidden" style="background-image: url('../asset/img/STORE/filter/0.avif');"></div>
+            <div class="uniform__list--img hidden" style="background-image: url('../asset/img/STORE/filter/1.avif');"></div>
+            <div class="uniform__list--img hidden" style="background-image: url('../asset/img/STORE/filter/2.avif');"></div>
+            <div class="uniform__list--img hidden" style="background-image: url('../asset/img/STORE/filter/3.avif');"></div>
+            <div class="uniform__list--img hidden" style="background-image: url('../asset/img/STORE/filter/4.avif');"></div>
+            <div class="uniform__list--img hidden" style="background-image: url('../asset/img/STORE/filter/5.avif');"></div>
+            <div class="uniform__list--img hidden" style="background-image: url('../asset/img/STORE/filter/6.avif');"></div>
+            <div class="uniform__list--img hidden" style="background-image: url('../asset/img/STORE/filter/7.avif');"></div>
+            <div class="uniform__list--img hidden" style="background-image: url('../asset/img/STORE/filter/8.avif');"></div>
+            <div class="uniform__list--img hidden" style="background-image: url('../asset/img/STORE/filter/9.avif');"></div>
+          </div>
+          <div class="filterForm l-6 m-12 c-12">
+            <h2 class="filterform__head">Personalise your 25/26 Jersey</h2>
+            <div class="filterform__model">
+              <span class="filterform__model--label">Shirt model</span>
+              <select class="filterform__model--list" name="" id="">
+                <option value="0" class="filterform__model--item">Manchester United 25/26 Home Jersey</option>
+                <option value="1" class="filterform__model--item">Manchester United 25/26 Home Long Sleeve Jersey</option>
+                <option value="2" class="filterform__model--item">Manchester United 25/26 Home Authentic Jersey</option>
+                <option value="3" class="filterform__model--item">Manchester United 25/26 Home Long Sleeve Authentic Jersey</option>
+                <option value="4" class="filterform__model--item">Manchester United Womens 25/26 Home Jersey</option>
+                <option value="5" class="filterform__model--item">Manchester United Womens 25/26 Home Authentic Jersey</option>
+                <option value="6" class="filterform__model--item">Manchester United Kids 25/26 Home Jersey</option>
+                <option value="7" class="filterform__model--item">Manchester United Kids 25/26 Home Long Sleeve Jersey</option>
+                <option value="8" class="filterform__model--item">Manchester United Kids 25/26 Home Mini Kit</option>
+                <option value="9" class="filterform__model--item">Manchester United Kids 25/26 Home Baby Kit</option>
+              </select>
+            </div>
+            <div class="filterform__size">
+              <span class="filterform__size--label">Size </span>
+              <ul class="filterform__size--list adult">
+                <li class="filterform__size--item">S</li>
+                <li class="filterform__size--item">M</li>
+                <li class="filterform__size--item">L</li>
+                <li class="filterform__size--item">XL</li>
+                <li class="filterform__size--item">2XL</li>
+              </ul>
+              <ul class="filterform__size--list kids hidden">
+                <li class="filterform__size--item">7-8Y</li>
+                <li class="filterform__size--item">9-10Y</li>
+                <li class="filterform__size--item">11-12Y</li>
+                <li class="filterform__size--item">13-14Y</li>
+                <li class="filterform__size--item">15-16Y</li>
+              </ul>
+              <ul class="filterform__size--list minikits hidden">
+                <li class="filterform__size--item">3-6M</li>
+                <li class="filterform__size--item">6-9M</li>
+                <li class="filterform__size--item">9-12M</li>
+                <li class="filterform__size--item">12-18M</li>
+              </ul>
+            </div>
+            <div class="filterform__price">
+              <span class="filterform__price--label">Price</span>
+              <span class="filterform__price--value">
+                <span class="filterform__price--text">$ 150</span>
+              </span>
+            </div>
+            <div class="filterform__btn">
+              <button class="filterform__btn--buy">CUSTOMISE</button>
+              <button class="filterform__btn--add">ADD TO BASKET</button>
+            </div>
+            <div class="filterform__title">
+              <p class="filterform__title--ship"><i class="filterform__titleship--icon fa-solid fa-truck-fast"></i>Standard & Express Delivery Available</p>
+              <span class="filterform__title--text">Unfortunately, we can't offer returns for player departures or number changes.</span>
+            </div>
+          </div>
+        </div>
+        <!-- Trainning wears -->
+        <div id="trainningwear" class="trainning">
+          <h2 class="trainning--head">Trainingwear</h2>
+          <p class="trainning__head--text">Focus on reaching your potential and growing your skills on the pitch with the 
+            official Manchester United training collection. With training 
+            jerseys, long-sleeved tops, winter jackets, football shorts, 
+            and long pants, you can find sportswear that suits every season. 
+            With AEROREADY technology, you can perform at your best while feeling 
+            cool and dry, so your focus can be on the game. Follow in the footsteps
+            of football greats by wearing the iconic team crest while building your 
+            abilities.</p>
+          <div class="train__select">
+            <span class="train__select--option select__option--active">All</span>
+            <span class="train__select--option">Mens</span>
+            <span class="train__select--option">Womens</span>
+            <span class="train__select--option">Kids</span>
+          </div>
+          <div class="train__contain">
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="mens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/mens/aonam1.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="mens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/mens/aonam2.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="mens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/mens/aonam3.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="mens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/mens/aonam4.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="mens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/mens/aonam5.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="mens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/mens/aonam6.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="mens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/mens/aonam7.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="mens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/mens/aonam8.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="mens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/mens/aonam9.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="mens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/mens/aonam10.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="mens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/mens/aonam11.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="mens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/mens/aonam12.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="mens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/mens/aonam13.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="mens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/mens/aonam14.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="mens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/mens/aonam15.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="mens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/mens/aonam16.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="mens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/mens/aonam17.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="mens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/mens/aonam18.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="mens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/mens/aonam19.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="mens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/mens/aonam20.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="mens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/mens/aonam21.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="mens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/mens/aonam22.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="mens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/mens/aonam23.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="mens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/mens/aonam24.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="womens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/womens/women1.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="womens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/womens/women2.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="womens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/womens/women3.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="womens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/womens/women4.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="womens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/womens/women5.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="womens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/womens/women6.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="womens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/womens/women7.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="womens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/womens/women8.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="womens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/womens/women9.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="womens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/womens/women10.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="womens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/womens/women11.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="womens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/womens/women12.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="womens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/womens/women13.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="womens">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/womens/women14.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="kids">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/kids/kid1.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">6-7Y</li>
+                  <li class="jersey__size--item">7-8Y</li>
+                  <li class="jersey__size--item">8-9Y</li>
+                  <li class="jersey__size--item">9-11Y</li>
+                  <li class="jersey__size--item">11-13Y</li>
+                  <li class="jersey__size--item">13-16Y</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="kids">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/kids/kid2.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">6-7Y</li>
+                  <li class="jersey__size--item">7-8Y</li>
+                  <li class="jersey__size--item">8-9Y</li>
+                  <li class="jersey__size--item">9-11Y</li>
+                  <li class="jersey__size--item">11-13Y</li>
+                  <li class="jersey__size--item">13-16Y</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="kids">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/kids/kid3.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">6-7Y</li>
+                  <li class="jersey__size--item">7-8Y</li>
+                  <li class="jersey__size--item">8-9Y</li>
+                  <li class="jersey__size--item">9-11Y</li>
+                  <li class="jersey__size--item">11-13Y</li>
+                  <li class="jersey__size--item">13-16Y</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="kids">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/kids/kid4.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">6-7Y</li>
+                  <li class="jersey__size--item">7-8Y</li>
+                  <li class="jersey__size--item">8-9Y</li>
+                  <li class="jersey__size--item">9-11Y</li>
+                  <li class="jersey__size--item">11-13Y</li>
+                  <li class="jersey__size--item">13-16Y</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="kids">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/kids/kid5.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">6-7Y</li>
+                  <li class="jersey__size--item">7-8Y</li>
+                  <li class="jersey__size--item">8-9Y</li>
+                  <li class="jersey__size--item">9-11Y</li>
+                  <li class="jersey__size--item">11-13Y</li>
+                  <li class="jersey__size--item">13-16Y</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="kids">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/kids/kid6.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">6-7Y</li>
+                  <li class="jersey__size--item">7-8Y</li>
+                  <li class="jersey__size--item">8-9Y</li>
+                  <li class="jersey__size--item">9-11Y</li>
+                  <li class="jersey__size--item">11-13Y</li>
+                  <li class="jersey__size--item">13-16Y</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="kids">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/kids/kid7.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">6-7Y</li>
+                  <li class="jersey__size--item">7-8Y</li>
+                  <li class="jersey__size--item">8-9Y</li>
+                  <li class="jersey__size--item">9-11Y</li>
+                  <li class="jersey__size--item">11-13Y</li>
+                  <li class="jersey__size--item">13-16Y</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="kids">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/kids/kid8.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">6-7Y</li>
+                  <li class="jersey__size--item">7-8Y</li>
+                  <li class="jersey__size--item">8-9Y</li>
+                  <li class="jersey__size--item">9-11Y</li>
+                  <li class="jersey__size--item">11-13Y</li>
+                  <li class="jersey__size--item">13-16Y</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="kids">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/kids/kid9.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">6-7Y</li>
+                  <li class="jersey__size--item">7-8Y</li>
+                  <li class="jersey__size--item">8-9Y</li>
+                  <li class="jersey__size--item">9-11Y</li>
+                  <li class="jersey__size--item">11-13Y</li>
+                  <li class="jersey__size--item">13-16Y</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="kids">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/kids/kid10.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">6-7Y</li>
+                  <li class="jersey__size--item">7-8Y</li>
+                  <li class="jersey__size--item">8-9Y</li>
+                  <li class="jersey__size--item">9-11Y</li>
+                  <li class="jersey__size--item">11-13Y</li>
+                  <li class="jersey__size--item">13-16Y</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="kids">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/kids/kid11.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">6-7Y</li>
+                  <li class="jersey__size--item">7-8Y</li>
+                  <li class="jersey__size--item">8-9Y</li>
+                  <li class="jersey__size--item">9-11Y</li>
+                  <li class="jersey__size--item">11-13Y</li>
+                  <li class="jersey__size--item">13-16Y</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="kids">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/kids/kid12.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">6-7Y</li>
+                  <li class="jersey__size--item">7-8Y</li>
+                  <li class="jersey__size--item">8-9Y</li>
+                  <li class="jersey__size--item">9-11Y</li>
+                  <li class="jersey__size--item">11-13Y</li>
+                  <li class="jersey__size--item">13-16Y</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="kids">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/kids/kid13.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">6-7Y</li>
+                  <li class="jersey__size--item">7-8Y</li>
+                  <li class="jersey__size--item">8-9Y</li>
+                  <li class="jersey__size--item">9-11Y</li>
+                  <li class="jersey__size--item">11-13Y</li>
+                  <li class="jersey__size--item">13-16Y</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="kids">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/kids/kid14.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">6-7Y</li>
+                  <li class="jersey__size--item">7-8Y</li>
+                  <li class="jersey__size--item">8-9Y</li>
+                  <li class="jersey__size--item">9-11Y</li>
+                  <li class="jersey__size--item">11-13Y</li>
+                  <li class="jersey__size--item">13-16Y</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+            <div class="jerseys__home--item col l-3 m-4 c-6" data-category="kids">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/tranning/kids/kid15.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">6-7Y</li>
+                  <li class="jersey__size--item">7-8Y</li>
+                  <li class="jersey__size--item">8-9Y</li>
+                  <li class="jersey__size--item">9-11Y</li>
+                  <li class="jersey__size--item">11-13Y</li>
+                  <li class="jersey__size--item">13-16Y</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new">New</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</span>
+                <span class="jerseys__item--name">Manchester United 25/26 Goalkeeper Long Sleeve Shirt</span>
+              </div>
+            </div>
+          </div>
+          <div class="train__pagination">
+            <!-- train__page--active -->
+            <button class="train__pagination--btn train__pagination__left"><i class="fa-solid fa-chevron-down fa-rotate-90"></i></button>
+            <button class="train__pagination--btn train__page--active train__pagination__item">1</button>
+            <button class="train__pagination--btn train__pagination__item">2</button>
+            <button class="train__pagination--btn train__pagination__right"><i class="fa-solid fa-chevron-down fa-rotate-270"></i></button>
+          </div>
+        </div>
+        <div id="fashion" class="fashion">
+          <h2 class="fashion__head">Fashion</h2>
+          <div class="fashion__outstand row">
+            <div class="fashion__outstand--banner col l-6 m-12">
+              <div class="fashion__outstand--wrapper">
+                <div class="fashion__outstand--bg" style="background-image: url('../asset/img/STORE/fashion/outstand--banner.webp');"></div>
+                <div class="fashion__outstand--overlay"></div>
+              </div>
+              <h2 class="fashion__outstand--banner-head">Spirit of Stretford</h2>
+              <p class="fashion__outstand--banner-text">Join the Legacy of the Stretford End with pieces showing the iconic Fan Flag and bar stripe details.</p>
+            </div>
+            <li class="jerseys__home--item col l-3 m-4 c-6 hide--on-mobile-tablet">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/fashion/outstand1.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new" style="background-color: red; color: white; font-weight: 500;">-20%</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><del><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</del><b style="color: red; margin-left: 5px;">$120</b></span>
+                <span class="jerseys__item--name">Manchester United Funnel Neck Parka Black</span>
+              </div>
+            </li>
+            <li class="jerseys__home--item col l-3 m-4 c-6 hide--on-mobile-tablet">
+              <div class="jerseys__item--contain">
+                
+                <div class="jerseys__contain--bg" style="background-size: cover; background-image:url('../asset/img/STORE/fashion/outstand2.png'), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%)"></div>
+                <span class="jerseys__item--like"><i class="jerseys__item--like-icon fa-regular fa-heart"></i></span>
+                <ul class="jerseys__item--size">
+                  <li class="jersey__size--item">M</li>
+                  <li class="jersey__size--item">S</li>
+                  <li class="jersey__size--item">L</li>
+                  <li class="jersey__size--item">XL</li>
+                  <li class="jersey__size--item">2XL</li>
+                  <li class="jersey__size--item">3XL</li>
+                </ul>
+                <div class="btn--inneritem filterform__btn">
+                  <button class="filterform__btn--buy">CUSTOMISE</button>
+                  <button class="filterform__btn--add">ADD TO BASKET</button>
+                </div>
+                <span class="jerseys__item--new" style="background-color: red; color: white; font-weight: 500;">-20%</span>
+              </div>
+              <div class="jerseys__item--title">
+                <span class="jerseys__item--price"><del><i class="jerseys__item--price-icon fa-solid fa-dollar-sign"></i>150</del><b style="color: red; margin-left: 5px;">$120</b></span>
+                <span class="jerseys__item--name">Manchester United Oversize Khaki </span>
+              </div>
+            </li>
+          </div>
+          <h2 class="fashion__contain--head">Shopping</h2>
+          <div class="fashion__containn--btn">
+            <span class="slider--btn slider--btn-left"><i class="slider--btn--icon fa-solid fa-chevron-down fa-rotate-90"></i></span>
+            <span class="slider--btn slider--btn-right"><i class="slider--btn--icon fa-solid fa-chevron-down fa-rotate-270"></i></span>
+          </div>
+          <div class="row fashion__contain">
+            <ul class="fashion__contain--list sliderScrollball">
+              <li class="fashion__contain--item col l-4 m-6 c-11">
+                <div class="fashion__item--content">
+                  <div class="fashion__item--bg" style="background-image: url(../asset/img/STORE/fashion/contain/content1.webp);"></div>
+                  <span class="fashion__item--title">New In</span>
+                  <div class="barRunning"></div>
+                </div>
+                <span class="fashion__contain--name">Golf Collection</span>
+              </li>
+              <li class="fashion__contain--item col l-4 m-6 c-11">
+                <div class="fashion__item--content">
+                  <div class="fashion__item--bg" style="background-image: url(../asset/img/STORE/fashion/contain/content2.webp);"></div>
+                  <span class="fashion__item--title">New In</span>
+                  <div class="barRunning"></div>
+                </div>
+                <span class="fashion__contain--name">Devil Essentials</span>
+              </li>
+              <li class="fashion__contain--item col l-4 m-6 c-11">
+                <div class="fashion__item--content">
+                  <div class="fashion__item--bg" style="background-image: url(../asset/img/STORE/fashion/contain/content3.webp);"></div>
+                  <span class="fashion__item--title">New In</span>
+                  <div class="barRunning"></div>
+                </div>
+                <span class="fashion__contain--name">Adidas Originals</span>
+              </li>
+              <li class="fashion__contain--item col l-4 m-6 c-11">
+                <div class="fashion__item--content">
+                  <div class="fashion__item--bg" style="background-image: url(../asset/img/STORE/fashion/contain/content4.webp);"></div>
+                  <span class="fashion__item--title">New In</span>
+                  <div class="barRunning"></div>
+                </div>
+                <span class="fashion__contain--name">Spirit Of Stretford</span>
+              </li>
+              <li class="fashion__contain--item col l-4 m-6 c-11">
+                <div class="fashion__item--content">
+                  <div class="fashion__item--bg" style="background-image: url(../asset/img/STORE/fashion/contain/content5.webp);"></div>
+                  <span class="fashion__item--title">New In</span>
+                  <div class="barRunning"></div>
+                </div>
+                <span class="fashion__contain--name">1978 Collection</span>
+              </li>
+              <li class="fashion__contain--item col l-4 m-6 c-11">
+                <div class="fashion__item--content">
+                  <div class="fashion__item--bg" style="background-image: url(../asset/img/STORE/fashion/contain/content6.webp);"></div>
+                  <span class="fashion__item--title">New In</span>
+                  <div class="barRunning"></div>
+                </div>
+                <span class="fashion__contain--name">Trainningwear</span>
+              </li>
+              <li class="fashion__contain--item col l-4 m-6 c-11">
+                <div class="fashion__item--content">
+                  <div class="fashion__item--bg" style="background-image: url(../asset/img/STORE/fashion/contain/content7.webp);"></div>
+                  <span class="fashion__item--title">New In</span>
+                  <div class="barRunning"></div>
+                </div>
+                <span class="fashion__contain--name">Lunar New Year</span>
+              </li>
+              <li class="fashion__contain--item col l-4 m-6 c-11">
+                <div class="fashion__item--content">
+                  <div class="fashion__item--bg" style="background-image: url(../asset/img/STORE/fashion/contain/content8.webp);"></div>
+                  <span class="fashion__item--title">New In</span>
+                  <div class="barRunning"></div>
+                </div>
+                <span class="fashion__contain--name">MUFC Heritage</span>
+              </li>
+              <li class="fashion__contain--item col l-4 m-6 c-11">
+                <div class="fashion__item--content">
+                  <div class="fashion__item--bg" style="background-image: url(../asset/img/STORE/fashion/contain/content9.webp);"></div>
+                  <span class="fashion__item--title">New In</span>
+                  <div class="barRunning"></div>
+                </div>
+                <span class="fashion__contain--name">Terrex</span>
+              </li>
+              <li class="fashion__contain--item col l-4 m-6 c-11">
+                <div class="fashion__item--content">
+                  <div class="fashion__item--bg" style="background-image: url(../asset/img/STORE/fashion/contain/content10.webp);"></div>
+                  <span class="fashion__item--title">New In</span>
+                  <div class="barRunning"></div>
+                </div>
+                <span class="fashion__contain--name">City Escape</span>
+              </li>
+              <li class="fashion__contain--item col l-4 m-6 c-11">
+                <div class="fashion__item--content">
+                  <div class="fashion__item--bg" style="background-image: url(../asset/img/STORE/fashion/contain/content11.webp);"></div>
+                  <span class="fashion__item--title">New In</span>
+                  <div class="barRunning"></div>
+                </div>
+                <span class="fashion__contain--name">SZNL Collection</span>
+              </li>
+              <li class="fashion__contain--item col l-4 m-6 c-11">
+                <div class="fashion__item--content">
+                  <div class="fashion__item--bg" style="background-image: url(../asset/img/STORE/fashion/contain/content12.webp);"></div>
+                  <span class="fashion__item--title">New In</span>
+                  <div class="barRunning"></div>
+                </div>
+                <span class="fashion__contain--name">George Best</span>
+              </li>
+              <li class="fashion__contain--item col l-4 m-6 c-11">
+                <div class="fashion__item--content">
+                  <div class="fashion__item--bg" style="background-image: url(../asset/img/STORE/fashion/contain/content13.webp);"></div>
+                  <span class="fashion__item--title">New In</span>
+                  <div class="barRunning"></div>
+                </div>
+                <span class="fashion__contain--name">Future Icons</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </main>
+      <!-- Accessories & Gilfs -->
+      <div class="accessories--gilfs">
+        <h2 class="accessories--gilfs-head">Accessories & Gilfs</h2>
+        <div class="acceessories__contain">
+          <div class="accessories__contain--item accessories--item1" style=" --bg-item : url('../asset/img/STORE/access&igilf/access/access1.png'); background-image: var(--bg-item), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%);"></div>
+          <div class="accessories__contain--item accessories--item2" style=" --bg-item : url('../asset/img/STORE/access&igilf/access/access2.png'); background-image: var(--bg-item), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%);"></div>
+          <div class="accessories__contain--item accessories--item3" style=" --bg-item : url('../asset/img/STORE/access&igilf/access/access3.png'); background-image: var(--bg-item), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%);"></div>
+          <div class="accessories__contain--item accessories--item4" style=" --bg-item : url('../asset/img/STORE/access&igilf/access/access4.png'); background-image: var(--bg-item), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%);"></div>
+          <div class="accessories__contain--item accessories--item5" style=" --bg-item : url('../asset/img/STORE/access&igilf/access/access5.png'); background-image: var(--bg-item), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%);"></div>
+          <div class="accessories__contain--item accessories--item6" style=" --bg-item : url('../asset/img/STORE/access&igilf/access/access6.png'); background-image: var(--bg-item), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%);"></div>
+          <div class="accessories__contain--item accessories--item7" style=" --bg-item : url('../asset/img/STORE/access&igilf/access/access7.png'); background-image: var(--bg-item), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%);"></div>
+          <div class="accessories__contain--item accessories--item8" style=" --bg-item : url('../asset/img/STORE/access&igilf/access/access8.png'); background-image: var(--bg-item), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%);"></div>
+          <div class="accessories__contain--item accessories--item9" style=" --bg-item : url('../asset/img/STORE/access&igilf/access/access9.png'); background-image: var(--bg-item), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%);"></div>
+          <div class="accessories__contain--item accessories--item10" style=" --bg-item : url('../asset/img/STORE/access&igilf/access/access12.png'); background-image: var(--bg-item), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%);"></div>
+          <div class="accessories__contain--item accessories--item11" style=" --bg-item : url('../asset/img/STORE/access&igilf/access/access11.png'); background-image: var(--bg-item), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%);"></div>
+          <div class="accessories__contain--item accessories--item12" style=" --bg-item : url('../asset/img/STORE/access&igilf/access/access10.png'); background-image: var(--bg-item), radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%);"></div>
+        </div>
+      </div>
+      <div class="sponsor">
+        <h2 class="sponsor--title">Manchester United Official Stores</h2>
+        <div class="sponsor__list">
+          <div class="sponsor__list--item l-4 m-4 c-4">
+            <img class="sponsor__item--img sponsor--img-flicker" src="../asset/img/STORE/adidas-logo.png" alt="">
+          </div>
+          <div class="sponsor__list--item l-4 m-4 c-4">
+            <img class="sponsor__item--img sponsor--img-flicker" src="../asset/img/STORE/ne-logo.png" alt="">
+          </div>
+          <div class="sponsor__list--item l-4 m-4 c-4">
+            <img class="sponsor__item--img sponsor--img-flicker" src="../asset/img/STORE/pau-smith.jfif.png" alt="">
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <footer class="footer">
+
+        <div class="footer__main grid wide">
+            <div class="footer__fanpage row l-4 hide--on-mobile-tablet">
+                <div class="footer__fanpage--logo"></div>
+                <div class="footer__fanpage--list">
+                    <div class="footer__fanpage--item">
+                        <a href="https://web.facebook.com/manchesterunited" class="fanpage__item--link"><i class="fanpage__item--icon fa-brands fa-facebook"></i>Facebook</a>
+                    </div>
+                    <div class="footer__fanpage--item">
+                        <a href="https://www.instagram.com/manchesterunited/" class="fanpage__item--link"><i class="fanpage__item--icon fa-brands fa-square-instagram"></i>Instagram</a>
+                    </div>
+                    <div class="footer__fanpage--item">
+                        <a href="https://www.youtube.com/@manutd" class="fanpage__item--link"><i class="fanpage__item--icon fa-brands fa-youtube"></i>Youtube</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__owner row l-8 m-12 c-12">
+                <h2 class="footer__owner--heading">Cảm ơn bạn đã ghé xem trang web</h2>
+                <p class="footer__owner--text">Mọi thông tin về bản quyền vui lòng liên hệ với tôi</p>
+                <div class="footer__owner--user">
+                    <div class="footer__owner--contact">
+                        <p class="owner__contact--item"><b>Email:</b> quynguyen.19122004@gmail.com</p>
+                        <p class="owner__contact--item"><b>Phone:</b> 0829746325</p>
+                        <p href="" class="owner__contact--item"><a href="https://web.facebook.com/nguyen.van.quy.263032"><i class="owner__contact--icon fa-brands fa-facebook"></i>Nguyễn Văn Quý</a></p>
+                        <p href="" class="owner__contact--item"><a href="https://www.instagram.com/quyy_19/"><i class="owner__contact--icon fa-brands fa-square-instagram"></i>quyy_19</a></p>
+                    </div>
+                    <div class="footer__contact--manage">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      </footer>
+    </div>
+    <!-- Scrollbar Slider -->
+    <script>
+      const slider = document.querySelectorAll(".sliderScrollball");
+      const btnLeft = document.querySelectorAll(".slider--btn-left");
+      const btnRight = document.querySelectorAll(".slider--btn-right");
+
+      const scrollAmount = window.innerWidth * 0.5; // tuỳ chỉnh số pixel muốn cuộn mỗi lần
+
+      btnLeft.forEach((btnLeftItem, index) => {
+        const sliderItem = slider[index];
+        btnLeftItem.addEventListener("click", () => {
+          sliderItem.scrollBy({ 
+            left: -scrollAmount,
+            behavior: "smooth" 
+          });
+        });
+      })
+
+      btnRight.forEach((btnRightItem, index) => {
+        const sliderItem = slider[index];
+        btnRightItem.addEventListener("click", () => {
+          sliderItem.scrollBy({ 
+            left: scrollAmount,
+            behavior: "smooth" 
+          });
+        });
+      })
+    </script>
+    
+    <!-- Like heart -->
+    <script>
+      var heartWrapper = document.querySelectorAll('.jerseys__item--like');
+
+      var heart = document.querySelectorAll('.jerseys__item--like-icon');
+
+      heartWrapper.forEach((heartElement, index) => {
+
+        const heartActive = heart[index];
+
+        heartElement.addEventListener('click', () => {
+          heartActive.classList.toggle('fa-regular');
+          heartActive.classList.toggle('fa-solid');
+          heartActive.classList.toggle('heart-icon');
+        });
+      }) 
+
+    </script>
+
+    <!-- filterform -->
+    
+    <script>
+
+      var $ = document.querySelector.bind(document);
+      var $$ = document.querySelectorAll.bind(document);
+      var typeShirt = $('.filterform__model--list');
+      var imgShirt = $$('.uniform__list--img');
+      var defaultShirt = $('.uniform__list--bg');
+      var priceShirt = $('.filterform__price--text');
+      var adultSize = $('.adult');
+      var kidsSize = $('.kids');
+      var minikitsSize = $('.minikits');
+      var size = $$('.filterform__size--item');
+
+      // change imgShirt
+      typeShirt.addEventListener('change', (e) => {
+        const index = Number(e.target.value);
+        
+        imgShirt.forEach((img) => {
+          img.classList.add('hidden');
+        });
+        defaultShirt.classList.add('hidden');
+        imgShirt[index].classList.remove('hidden');
+
+        switch(index) {
+          case 0:
+            priceShirt.innerHTML = '$ 150';
+            adultSize.classList.remove('hidden');
+            kidsSize.classList.add('hidden');
+            minikitsSize.classList.add('hidden');
+            break;
+          case 1:
+            priceShirt.innerHTML = '$ 160';
+            adultSize.classList.remove('hidden');
+            kidsSize.classList.add('hidden');
+            minikitsSize.classList.add('hidden');
+            break;
+          case 2:
+            priceShirt.innerHTML = '$ 140';
+            adultSize.classList.remove('hidden');
+            kidsSize.classList.add('hidden');
+            minikitsSize.classList.add('hidden');
+            break;
+          case 3:
+            priceShirt.innerHTML = '$ 160';
+            adultSize.classList.remove('hidden');
+            kidsSize.classList.add('hidden');
+            minikitsSize.classList.add('hidden');
+            break;
+          case 4:
+            priceShirt.innerHTML = '$ 120';
+            adultSize.classList.remove('hidden');
+            kidsSize.classList.add('hidden');
+            minikitsSize.classList.add('hidden');
+            break;
+          case 5:
+            priceShirt.innerHTML = '$ 119';
+            adultSize.classList.remove('hidden');
+            kidsSize.classList.add('hidden');
+            minikitsSize.classList.add('hidden');
+            break;
+          case 6:
+            priceShirt.innerHTML = '$ 70';
+            adultSize.classList.add('hidden');
+            kidsSize.classList.remove('hidden');
+            minikitsSize.classList.add('hidden');
+            break;
+          case 7:
+            priceShirt.innerHTML = '$ 79';
+            adultSize.classList.add('hidden');
+            kidsSize.classList.remove('hidden');
+            minikitsSize.classList.add('hidden');
+            break;
+          case 8:
+            priceShirt.innerHTML = '$ 29';
+            adultSize.classList.add('hidden');
+            kidsSize.classList.add('hidden');
+            minikitsSize.classList.remove('hidden');
+            break;
+          case 9:
+            priceShirt.innerHTML = '$ 39';
+            adultSize.classList.add('hidden');
+            kidsSize.classList.add('hidden');
+            minikitsSize.classList.remove('hidden');
+            break;
+            default:priceShirt.innerHTML = '$ 150';
+        }
+
+        size.forEach(element => {
+          element.classList.remove('filterform__size--item-active');
+        });
+
+      })
+      // active size item
+      size.forEach((sizeItem) => {
+        sizeItem.addEventListener('click', () => {
+          size.forEach((item) => {item.classList.remove('filterform__size--item-active');})
+          sizeItem.classList.add('filterform__size--item-active');
+          
+        });
+      });
+
+    </script>
+
+    <!-- show-size-item -->
+     <!-- <script>
+
+      var showSize = document.querySelectorAll('.jerseys__item--sixe-btn');
+      var listSize = document.querySelectorAll('.jerseys__item--size');
+      console.log(listSize)
+
+      showSize.forEach((itemShowSize, index) => {
+        const itemListSize = listSize[index];
+        itemShowSize.addEventListener('click', () => {
+          itemListSize.style.bottom = '0';
+        });
+      });
+
+     </script> -->
+
+    <!-- Show btn--inneritem -->
+    <script>
+      var $ = document.querySelector.bind(document);
+      var $$ = document.querySelectorAll.bind(document);
+      var sizeInItem = $$('.jerseys__item--size');
+      var btnInItem = $$('.btn--inneritem');
+      var containItem = $$('.jerseys__item--contain');
+      
+
+      sizeInItem.forEach((sizeItem, index) => {
+        const btnActive = btnInItem[index];
+        const childrenSizeItem = [...sizeItem.children];
+        childrenSizeItem.forEach((element) => {
+          element.addEventListener('click', () => {
+            btnActive.style.bottom = '0'
+          });
+        });
+      });
+
+      containItem.forEach((item, index) => {
+        const btnActive = btnInItem[index];
+        item.addEventListener('mouseleave', () => {
+          btnActive.style.bottom = '-140px'
+        })
+      })
+
+    </script>
+    <!-- train--pagination -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const ITEMS_PER_PAGE = 12;
+        const productContainer = document.querySelector(".train__contain");
+        const paginationContainer = document.querySelector(".train__pagination");
+        const filterOptions = document.querySelectorAll(".train__select--option");
+
+        let allItems = Array.from(productContainer.querySelectorAll(".jerseys__home--item"));
+        let currentCategory = "all";
+        let currentPage = 1;
+
+        function filterItemsByCategory(category) {
+          currentCategory = category;
+          currentPage = 1;
+          renderItems();
+        }
+
+        function paginateItems(items, page) {
+          const start = (page - 1) * ITEMS_PER_PAGE;
+          const end = start + ITEMS_PER_PAGE;
+          return items.slice(start, end);
+        }
+
+        function renderItems() {
+          const visibleItems = currentCategory === "all"
+            ? allItems
+            : allItems.filter(item => item.dataset.category === currentCategory);
+
+          const paginatedItems = paginateItems(visibleItems, currentPage);
+
+          productContainer.innerHTML = ""; // Xóa sản phẩm cũ
+          paginatedItems.forEach(item => productContainer.appendChild(item));
+
+          renderPaginationButtons(visibleItems.length);
+        }
+
+        function renderPaginationButtons(totalItems) {
+          const totalPages = Math.ceil(totalItems / ITEMS_PER_PAGE);
+          paginationContainer.innerHTML = "";
+
+          if (totalPages <= 1) return; // Không cần phân trang
+
+          const leftBtn = document.createElement("button");
+          leftBtn.className = "train__pagination--btn train__pagination__left";
+          leftBtn.innerHTML = `<i class="fa-solid fa-chevron-down fa-rotate-90"></i>`;
+          leftBtn.disabled = currentPage === 1;
+          leftBtn.addEventListener("click", () => {
+            if (currentPage > 1) {
+              currentPage--;
+              renderItems();
+            }
+          });
+          paginationContainer.appendChild(leftBtn);
+
+          for (let i = 1; i <= totalPages; i++) {
+            const pageBtn = document.createElement("button");
+            pageBtn.className = "train__pagination--btn train__pagination__item";
+            if (i === currentPage) pageBtn.classList.add("train__page--active");
+            pageBtn.textContent = i;
+            pageBtn.addEventListener("click", () => {
+              currentPage = i;
+              renderItems();
+            });
+            paginationContainer.appendChild(pageBtn);
+          }
+
+          const rightBtn = document.createElement("button");
+          rightBtn.className = "train__pagination--btn train__pagination__right";
+          rightBtn.innerHTML = `<i class="fa-solid fa-chevron-down fa-rotate-270"></i>`;
+          rightBtn.disabled = currentPage === totalPages;
+          rightBtn.addEventListener("click", () => {
+            if (currentPage < totalPages) {
+              currentPage++;
+              renderItems();
+            }
+          });
+          paginationContainer.appendChild(rightBtn);
+        }
+
+        // Gán sự kiện filter
+        filterOptions.forEach(option => {
+          option.addEventListener("click", () => {
+            filterOptions.forEach(o => o.classList.remove("select__option--active"));
+            option.classList.add("select__option--active");
+            const selected = option.textContent.toLowerCase();
+            filterItemsByCategory(selected === "all" ? "all" : selected);
+          });
+        });
+
+        // Hiển thị lần đầu
+        renderItems();
+      });
+    </script>
+    <!-- onmouse--access-item -->
+     <script>
+
+      var accessItem = document.querySelectorAll('.accessories__contain--item');
+      accessItem.forEach(item => {
+        const bgItem = getComputedStyle(item).getPropertyValue('--bg-item');
+        console.log(bgItem);
+
+        item.addEventListener('mouseleave', () => {
+          item.style.backgroundImage = `${bgItem},radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(165, 165, 165) 100%) `;
+        });
+        item.addEventListener('mouseenter', () => {
+          item.style.backgroundImage = `${bgItem},radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgb(98, 94, 94) 100%) `;
+        });
+      })
+
+
+     </script>
+     <!-- sponsor-flicker -->
+     <script>
+
+      var sponsor = document.querySelectorAll('.sponsor__item--img');
+      sponsor.forEach(item => {
+        setInterval(function() {
+          item.classList.toggle('sponsor--img-flicker');
+        }, 300)
+      })
+
+     </script>
+</body>
+</html>

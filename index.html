@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Manchester United</title>
+    <link rel="icon" href="asset/img/logotitle.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="asset/css/base.css">
+    <link rel="stylesheet" href="../asset/css/main.css">
+    <link rel="stylesheet" href="asset/css/index.css">
+    <link rel="stylesheet" href="asset/css/grid.css">
+    <link rel="stylesheet" href="asset/font/fontawesome-free-6.7.1-web/css/all.min.css">
+    <link rel="stylesheet" href="asset/css/responsive.css">
+</head>
+
+<body>
+
+    <div class="app">
+        
+
+        <!-- ✅ HEADER với background slider -->
+        <header class="header">
+            <div class="slider-container">
+                <div class="slider-track" id="sliderTrack">
+                <img src="asset/img/header-1-4k.webp" />
+                <img src="asset/img/header-2.webp" />
+                <img src="asset/img/header-3.webp" />
+                <img src="asset/img/bruno.jpg" />
+                <img src="asset/img/header-5.jpg" />
+                <img src="asset/img/header-1.webp" />
+                <img src="asset/img/header-7.jpg" />
+                <img src="asset/img/header-8.jpg" />
+                <img src="asset/img/stadium-header.jpg" />
+                </div>
+            </div>
+        </header>
+        <!-- ✅ NAVBAR độc lập -->
+        <nav class="nav__bar">
+
+            <!-- logo -->
+            <div class="nav__logo">
+                <img class="nav__logo--img" src="asset/img/logo.png" alt="logo">
+            </div>
+
+            <!-- Greeting & category -->
+            <div class="nav__right">
+                <div class="nav__greeting">  
+                    <h1 class="greeting--text hide--on-mobile"><span class="hide--on-mobile-tablet">Welcom to</span> Manchester United</h1>
+                    <!-- hidden -->
+                    <div class="nav__user ">
+                        <a class="nav__user--item user--item-register">
+                            <i class="user--item-icon fa-solid fa-user-tie"></i>
+                            <span class="user--text ">Register</span>
+                        </a>
+                        <a class="nav__user--item user--item-login">
+                            <i class="user--item-icon fa-solid fa-user-tie"></i>
+                            <span class="user--text ">Login</span>
+                        </a>
+                    </div>
+                    <!-- hidden -->
+                    <div class="nav__user hidden">
+                        <a class="nav__user--item">
+                            <i class="user--item-icon fa-solid fa-user-tie"></i>
+                            <span class="user--text">Quy</span>
+                            <ul class="user__list">
+                                <li class="user__list--item">Cart</li>
+                                <li class="user__list--item">Log Out</li>
+                            </ul>
+                        </a>
+                        <!-- <a href="" class="nav__users hidden"><i class="user--icon fa-solid fa-user-tie"></i></a> -->
+                    </div>
+                </div>
+
+                <div class="nav__bottom">
+                    <span class="nav__preface hide--on-mobile-tablet">
+                        The strongest team in English history
+                    </span>
+                    <ul class="nav__category">
+                        <!-- active - làm nổi bật ppage đang mở --> 
+                        <li class="category--items">
+                            <a href="index.html" class="category--item active"><i class="category--item-icon fa-solid fa-house"></i>Home</a>
+                        </li>
+                        <li class="category--items">
+                            <a href="pages/player.html" class="category--item"><i class="category--item-icon fa-solid fa-users"></i>Player</a>
+                        </li>
+                        <li class="category--items">
+                            <a href="pages/news.html" class="category--item"><i class="category--item-icon fa-solid fa-newspaper"></i>News</a>
+                        </li>
+                        <li class="category--items">
+                            <a href="pages/store.html" class="category--item"><i class="category--item-icon fa-solid fa-shop"></i>Store</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="nav__crossbar"></div>
+            </div>
+        </nav>
+        <!-- modal -->
+        <div class="modal hidden">
+            <div class="overlay__modal"></div>
+            <!-- resgister -->
+            <div class="modal__register">
+                <form action="" class="form__register" id="form-1">
+                    <div class="form__head--tranfer">
+                        <span class="head--main">Register</span>
+                        <span class="head--extra">Log in</span>
+                    </div>
+                    <p class="head--text">Welcom to Manchester United</p>
+
+                    <div class="form--group">
+                            <label for="fullname" class="form--label">Full name</label>
+                            <input id="fullname" name="fullname" type="text" placeholder="Full name ..." class="form--control">
+                            <span class="form--message"></span>
+                    </div>
+
+                    <div class="form--group">
+                        <label for="email" class="form--label">Email</label>
+                        <input id="email" name="email" type="text" placeholder="Ex: email@domain.com" class="form--control">
+                        <span class="form--message"></span>
+                    </div>
+
+                    <div class="form--group">
+                        <label for="password" class="form--label">Password</label>
+                        <input id="password" name="password" type="password" placeholder="Enter password" class="form--control">
+                        <span class="form--message"></span>
+                    </div>
+
+                    <div class="form--group">
+                        <label for="password_confirmation" class="form--label">Again Password</label>
+                        <input id="password_confirmation" name="password_confirmation" placeholder="Re-enter the password" type="password" class="form--control">
+                        <span class="form--message"></span>
+                    </div>
+
+                    <p class="form--title"><input name="checkbox" class="form--title-check" type="checkbox">I agree to the terms of Manchester United</p>
+
+                    <div class="form__btn--confirm">
+                        <button type="button" class="confirm--btn form--back">Cancel</button>
+                        <button type="button" class="confirm--btn form--submit">Sign up</button>
+                    </div>
+                    <div class="form--social">
+                        <div class="social--item social--facebook">
+                            <i class="social--icon fa-brands fa-facebook-f"></i>
+                            <div class="social--text">Facecook</div>
+                        </div>
+                        <div class="social--item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" preserveAspectRatio="xMidYMid" viewBox="0 0 256 262" id="google">
+                                <path fill="#4285F4" d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622 38.755 30.023 2.685.268c24.659-22.774 38.875-56.282 38.875-96.027"></path>
+                                <path fill="#34A853" d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055-34.523 0-63.824-22.773-74.269-54.25l-1.531.13-40.298 31.187-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1"></path>
+                                <path fill="#FBBC05" d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82 0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602l42.356-32.782"></path>
+                                <path fill="#EB4335" d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0 79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251"></path>
+                                </svg>
+                            <div class="social--text">Google</div>
+                        </div>
+                    </div> 
+                </form>
+            </div>
+            <!-- login -->
+             <div class="modal__login">
+                <form action="" class="form__register" id="form-1">
+                    <div class="form__head--tranfer">
+                        <span class="head--main">Log in</span>
+                        <span class="head--extra">Register</span>
+                    </div>
+                    <p class="head--text">Welcom to Manchester United</p>
+
+                    <div class="form--group">
+                            <label for="fullname" class="form--label">Full name</label>
+                            <input id="fullname" name="fullname" type="text" placeholder="Full name ..." class="form--control">
+                            <span class="form--message"></span>
+                    </div>
+
+                    <div class="form--group">
+                        <label for="password" class="form--label">Password</label>
+                        <input id="password" name="password" type="password" placeholder="Enter password" class="form--control">
+                        <span class="form--message"></span>
+                    </div>
+
+                    <div class="form__btn--confirm">
+                        <button type="button" class="confirm--btn form--back">Cancel</button>
+                        <button type="button" class="confirm--btn form--submit">Log in</button>
+                    </div>
+                    <div class="form--social">
+                        <div class="social--item social--facebook">
+                            <i class="social--icon fa-brands fa-facebook-f"></i>
+                            <div class="social--text">Facecook</div>
+                        </div>
+                        <div class="social--item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" preserveAspectRatio="xMidYMid" viewBox="0 0 256 262" id="google">
+                                <path fill="#4285F4" d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622 38.755 30.023 2.685.268c24.659-22.774 38.875-56.282 38.875-96.027"></path>
+                                <path fill="#34A853" d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055-34.523 0-63.824-22.773-74.269-54.25l-1.531.13-40.298 31.187-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1"></path>
+                                <path fill="#FBBC05" d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82 0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602l42.356-32.782"></path>
+                                <path fill="#EB4335" d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0 79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251"></path>
+                                </svg>
+                            <div class="social--text">Google</div>
+                        </div>
+                    </div> 
+                </form>
+            </div>
+        </div>
+        <!-- ✅ MAIN CONTENT -->
+        <main class="web__contain">
+            <div class="web__contain--content grid wide">
+                <div class="web__contain--information row">
+                    <div class="contain__information--team col l-6 m-6 c-12">
+                        <img class="contain__information--logo" src="asset/img/logo.png" alt="#">
+                    </div>
+                    <div class="contain__information--team col l-6 m-6 c-12">
+                        <h2 class="contain__information--name">Manchester United Team</h2>
+                        <p class="contain__information--item"><b>Name</b>: Manchester United Football Club</p>
+                        <p class="contain__information--item"><b>Nick name</b>: The Red Devils</p>
+                        <p class="contain__information--item"><b>Founded</b>: 1878 (originally as Newton Heath LYR FC), renamed Manchester United in 1902</p>
+                        <p class="contain__information--item"><b>Owner</b>: INEOS Group (Sir Jim Ratcliffe, holds sporting control)</p>
+                        <p class="contain__information--item"><b>Current manager</b>: Ruben Amorim</p>
+                        <p class="contain__information--item"><b>Current league</b>:Premier League</p>
+                        <p class="contain__information--item"><b>Music</b>: Glory Glory Man United</p>
+                        <audio controls class="contain__information--music">
+                            <source src="asset/img/GloryGloryManUnited.mp3" type="audio/mpeg">
+                            <!-- Trình duyệt của bạn không hỗ trợ audio. -->
+                        </audio>
+                    </div>
+                </div>
+                <div class="web__contain--information row">    
+                    <div class="contain__information--team col l-6 m-6 c-12">
+                        <h2 class="contain__information--name">Team Stadium</h2>
+                        <p class="contain__information--item"><b>Name</b>: Old Stanford Stadium</p>
+                        <p class="contain__information--item"><b>Nick name</b>: The Theatre of Dreams</p>
+                        <p class="contain__information--item"><b>Location</b>: Old Trafford, Greater Manchester, England</p>
+                        <p class="contain__information--item"><b>Inaugurated</b>: February 19, 1910</p>
+                        <p class="contain__information--item"><b>Seating capacity</b>: Approximately 74,310</p>
+                        <p class="contain__information--item"><b>Pitch dimensions</b>: 105 x 68 meters</p>
+                    </div>
+                    <div class="contain__information--team col l-6 m-6 c-12">
+                        <img class="information--team-img" src="asset/img/oldtranfod.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="champion">
+                <h2 class="champion__Trophygallery">Trophy gallery</h2>
+            </div>
+
+            <div class="web__champion grid wide">
+                <div class="web__champion--items">
+                    <div class="web__champion--item " style="background-image: url('asset/img/epl-cup.jpg');">
+                        <img class="champion--img " src="asset/img/cup-epl-removebg-preview.png" alt="">
+                        <div class="champion--text">
+                            <h2 class="champion--text-heading">20 Premier League</h2>
+                            <p class="champion--text-year"><b>Năm</b>: 1907–08, 1910–11, 1951–52, 1955–56, 1956–57, 1964–65, 1966–67, 1992–93, 1993–94, 1995–96, 1996–97, 1998–99, 1999–2000, 2000–01, 2002–03, 2006–07, 2007–08, 2008–09, 2010–11, 2012–13</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="web__champion--list" >
+                    <div class="champion--list-item " style="background-image: url('asset/img/Fa-cup.jpg');">
+                        <img class="champion--item-img " src="asset/img/cup-fa-removebg-preview.png" alt="">
+                        <div class="champion--item-text">
+                            <h2 class="champion--item-headeing">12 FA Cup</h2>
+                            <p class="champion--item-year"><b>Năm</b>1909, 1948, 1963, 1977, 1983, 1985, 1990, 1994, 1996, 1999, 2004, 2016</p>
+                        </div>
+                    </div>
+                    <div class="champion--list-item" style="background-image: url('asset/img/carabao.webp');">
+                        <img class="champion--item-img first" src="asset/img/cup-carabao-removebg-preview.png" alt="">
+                        <div class="champion--item-text">
+                            <h2 class="champion--item-headeing">6 Carabao Cup</h2>
+                            <p class="champion--item-year"><b>Năm</b>: 1992, 2006, 2009, 2010, 2017, 2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="web__champion--items">
+                    <div class="web__champion--item " style="background-image: url('asset/img/C1.jpg');">
+                        <img class="champion--img" src="asset/img/cup-c1-removebg-preview.png" alt="">
+                        <div class="champion--text">
+                            <h2 class="champion--text-heading">3 UEFA Champions League</h2>
+                            <p class="champion--text-year"><b>Năm</b>: 1967-1968, 1998-1999, 2007-2008</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+
+        <div class="footer__main grid wide">
+            <div class="footer__fanpage row l-4 hide--on-mobile-tablet">
+                <div class="footer__fanpage--logo"></div>
+                <div class="footer__fanpage--list">
+                    <div class="footer__fanpage--item">
+                        <a href="https://web.facebook.com/manchesterunited" class="fanpage__item--link"><i class="fanpage__item--icon fa-brands fa-facebook"></i>Facebook</a>
+                    </div>
+                    <div class="footer__fanpage--item">
+                        <a href="https://www.instagram.com/manchesterunited/" class="fanpage__item--link"><i class="fanpage__item--icon fa-brands fa-square-instagram"></i>Instagram</a>
+                    </div>
+                    <div class="footer__fanpage--item">
+                        <a href="https://www.youtube.com/@manutd" class="fanpage__item--link"><i class="fanpage__item--icon fa-brands fa-youtube"></i>Youtube</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__owner row l-8 m-12 c-12">
+                <h2 class="footer__owner--heading">Cảm ơn bạn đã ghé xem trang web</h2>
+                <p class="footer__owner--text">Mọi thông tin về bản quyền vui lòng liên hệ với tôi</p>
+                <div class="footer__owner--user">
+                    <div class="footer__owner--contact">
+                        <p class="owner__contact--item"><b>Email:</b> quynguyen.19122004@gmail.com</p>
+                        <p class="owner__contact--item"><b>Phone:</b> 0829746325</p>
+                        <p href="" class="owner__contact--item"><a href="https://web.facebook.com/nguyen.van.quy.263032"><i class="owner__contact--icon fa-brands fa-facebook"></i>Nguyễn Văn Quý</a></p>
+                        <p href="" class="owner__contact--item"><a href="https://www.instagram.com/quyy_19/"><i class="owner__contact--icon fa-brands fa-square-instagram"></i>quyy_19</a></p>
+                    </div>
+                    <div class="footer__contact--manage">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </footer>
+    </div>
+    <!-- slider-header -->
+    <script src="asset/js/slider.js"></script>
+    <!-- show-modal -->
+     <script>
+        var btnRegister = document.querySelector('.user--item-register');
+        var btnLogin = document.querySelector('.user--item-login');
+        var modal = document.querySelector('.modal');
+        var formRegister = document.querySelector('.modal__register');
+        var formLogin = document.querySelector('.modal__login');
+        var overlay = [document.querySelector('.overlay__modal')];
+        var cancelBtn = Array.from(document.querySelectorAll('.form--back'));
+        var back = overlay.concat(cancelBtn);
+        var tranfer = document.querySelectorAll('.head--extra');
+        var textSubmit = document.querySelectorAll('.head--main');
+        var btnSubmit = document.querySelectorAll('.form--submit');
+
+
+        btnRegister.addEventListener('click', () => {
+            modal.classList.remove('hidden');
+            formRegister.classList.remove('hidden');
+            formLogin.classList.add('hidden');
+        });
+
+        btnLogin.addEventListener('click', () => {
+            modal.classList.remove('hidden');
+            formRegister.classList.add('hidden');
+            formLogin.classList.remove('hidden');
+        });
+
+        tranfer.forEach(itemTranfer => {
+            itemTranfer.addEventListener('click', () => {
+                formRegister.classList.toggle('hidden');
+                formLogin.classList.toggle('hidden');
+            });
+        });
+
+        back.forEach(itemBack => {
+            itemBack.addEventListener('click', () => {
+                modal.classList.add('hidden');
+            });
+        });
+
+        btnSubmit.forEach((item, index) => {
+            const itemSubmit = textSubmit[index];
+            item.addEventListener('click', () => {
+                modal.classList.add('hidden');
+                alert(`You have successfully ${itemSubmit.innerText}.`)
+            });
+        });
+
+
+     </script>
+     
+     <!-- responsive -click-item  Trophy gallery -->
+     <!-- <script>
+
+        var championBtn = document.querySelectorAll('.web__champion--item');
+        var championSmallBtn = document.querySelectorAll('.champion--list-item');
+
+        championBtn.forEach(item => {
+            item.addEventListener('click', () => {
+                item.classList.toggle('champion__item--active');
+            });
+        });
+        championSmallBtn.forEach(item => {
+            item.addEventListener('click', () => {
+                item.classList.toggle('champion--list-item-active');
+            });
+        }); -->
+
+     </script>
+</body>
+</html>

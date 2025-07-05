@@ -1,0 +1,328 @@
+/* mobile & tablet */
+@media (max-width: 1023.9px){
+    .hide--on-mobile-tablet {
+        display: none !important;
+    }
+}
+/* tablet */
+
+@media (min-width: 740px) and (max-width: 1023.9px){
+    .hide--on-tablet {
+        display: none;
+    }
+    /* ----------------lineup--------------- */
+
+    .web__contain {
+        padding-top: 170px;
+    }
+
+    .main__squad.grid.wide {
+        padding: 50px 0;
+    }
+
+    .main__squad--player {
+        background-image: url('../img/player/sanbongdoc.jpg');
+        background-position: center;
+    }
+
+    .gk {
+    top: 500px;
+    left: 240px;
+    }
+
+    .rwb {
+        top: 340px;
+        left: 375px;
+    }
+
+    .lwb {
+        top: 340px;
+        left: 100px;
+    }
+
+    .lcb {
+        top: 450px;
+        left: 140px;
+    }
+
+    .cb {
+        top: 410px;
+        left: 240px;
+    }
+
+    .rcb {
+        top: 450px;
+        left: 330px;
+    }
+
+    .ldm {
+        top: 230px;
+        left: 160px;
+    }
+
+    .rdm {
+        top: 230px;
+        left: 320px;
+    }
+
+    .lw {
+        top: 150px;
+        left: 120px;
+    }
+
+    .st {
+        top: 60px;
+        left: 240px;
+    }
+
+    .rw {
+        top: 150px;
+        left: 360px;
+    }
+
+    .main__squad--coach {
+        top: 10px;
+        right: 10px;
+        width: 110px;
+        height: 140px;
+    }
+
+    .main__squad--coach:hover {
+        width: 120px;
+        height: 150px;
+    }
+
+    /* ----------------all player-------------- */
+    .allplayer.wide.grid {
+        width: 95%;
+        margin: auto 20px;
+    }
+
+    .allplayer__lacation--list {
+        justify-content: space-around;
+    }
+
+    .allplayer__location--item {
+        height: 330px;
+        width: 228px;
+    }
+
+    .alplayer__statistical--name {
+        font-size: 1.2rem;
+    }
+
+    .allplayer__item--name {
+        font-size: 2.6rem;
+    }
+
+    .allplayer__item--number {
+        font-size: 3.8rem;
+    }
+
+    /* ------------legendary------------ */
+    .legendary.wide.grid {
+        width: 95%;
+        margin: 50px auto 0;
+    }
+}
+/* mobile */
+@media (max-width: 740px){
+    .hide--on-mobile {
+        display: none;
+    }
+
+    /* -------lineup----------- */
+    .main__squad__lineup {
+        padding-top: 110px;
+    }
+
+    .main__squad__linup-img {
+        width: 100%;
+    }
+
+    .main__squad__linup-img > img {
+        width: 100%;
+    }
+    /* -----------all player---------- */
+    .allplayer.wide.grid {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .allplayer__heading--text {
+        font-size: 2.6rem;
+    }
+
+    .allplayer__location--text {
+        font-size: 2.4rem;
+    }
+
+    .allplayer__location--item {
+        height: 200px;
+        width: 150px;
+    }
+
+    .allplayer__item--bottom {
+        height: 40px;
+    }
+
+    .allplayer__item--name {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+
+    .allplayer__item--statistical {
+        margin-top: 20px;
+    }
+
+    .alplayer__statistical--name {
+        font-size: 0.8rem;
+    }
+
+    .allplayer__statistical--number {
+        font-size: 0.8rem;
+        line-height: 10px;
+    }
+
+    .allplayer__item--infor {
+        top: -10px;
+        left: -5px;
+    }
+
+    .allplayer__item--number {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    .allplayer__item--position {
+        font-size: 1rem;
+    }
+
+    .allplayer__item--flag {
+        width: 15px;
+    }
+
+    .allplayer__location--item:hover .allplayer__item--bottom {
+        height: 95px;
+    }
+
+    .allplayer__item--bottom::after {
+        top: 43px;
+    }
+    /* ------------legendary----------- */
+    .legendary__head--text {
+        font-size: 4rem;
+    }
+}
+
+/* tablet & pc */
+
+@media (min-width: 740px){
+    
+}
+/* screen lineup */
+@media (min-width: 1024.1px) and (max-width: 1240px) {
+    .gk {
+    top: 150px;
+    left: 50px;
+    }
+
+    .gk:hover {
+        background-color: #9800ff;
+    }
+
+    .rwb {
+        top:260px;
+        left: 330px;
+    }
+
+    .lwb {
+        top: 40px;
+        left: 330px;
+    }
+
+    .lcb {
+        top: 75px;
+        left: 150px;
+    }
+
+    .cb {
+        top: 150px;
+        left: 200px;
+    }
+
+    .rcb {
+        top: 210px;
+        left: 140px;
+    }
+
+    .ldm {
+        top: 100px;
+        left: 430px;
+    }
+
+    .rdm {
+        top: 200px;
+        left: 430px;
+    }
+
+    .lw {
+        top: 60px;
+        left: 600px;
+    }
+
+    .st {
+        top: 130px;
+        left: 670px;
+    }
+
+    .rw {
+        top: 260px;
+        left: 600px;
+    }
+
+    .main__squad--coach {
+        top: 20px;
+        right: 10px;
+        width: 100px;
+        height: 130px;
+    }
+    .main__squad--coach:hover {
+        width: 110px;
+
+        height: 140px;
+    }
+
+    .main__squad--player {
+        height: 430px;
+    }
+
+    /* ----------all player------------ */
+    .allplayer__location--item {
+        width: 310px;
+    }
+}
+
+/* pc-low */
+
+@media (min-width: 1024px) and (max-width: 1380px){
+    .hide--on-pc-low {
+        display: none;
+    }
+}
+
+/* pc */
+@media (max-width: 1113px) and (min-width: 1024px){
+    .hide--on-pc {
+        display: none;
+    }
+}
+
+
+/* pc High configuration */
+
+@media (min-width: 1380.1px){
+    .hide--on-pcHigh {
+        display: none;
+    }
+}

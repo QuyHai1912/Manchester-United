@@ -1,0 +1,427 @@
+/* mobile & tablet */
+@media (max-width: 1023.9px){
+    .hide--on-mobile-tablet {
+        display: none !important;
+    }
+    /* -----------update news---------- */
+    .news__update.grid.wide {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    /* ------------late video---------- */
+    .video.grid.wide {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    /* ---------fixtures--------------- */
+    .fixtures__contain {
+        flex-direction: column;
+    }
+
+    .fixtures__contain--bxh {
+        margin-top: 40px;
+    }
+}
+/* tablet */
+
+@media (min-width: 740px) and (max-width: 1023.9px){
+    .hide--on-tablet {
+        display: none;
+    }
+    /* -------update - news----------- */
+    
+
+    .news__update--head > span .barRunning {
+        left: 8px;
+    }
+
+    .news__hot--item {
+        height: 270px;
+    }
+
+    .news__hot--item .barRunning {
+        left: 185px;
+    }
+
+    .newsHot__item--title-caption {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+    }
+
+    .newsHot__item--title-text {
+        font-size: 1.2rem;
+    }
+
+    .l-3 .newsHot__item--title-caption {
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+        height: 50px;
+    }
+
+    .l-3 > .news__hot--item > .news__hot--item-title {
+        padding: 10px 5px 5px;
+    }
+
+    .l-3 .newsNote {
+        padding-right: 5px;
+    }
+
+    /* ---------late-video---------- */
+
+    .video__contain--item {
+        height: 280px;
+    }
+
+    .video__contain--item-ytb {
+        height: 40px;
+        width: 40px;
+    }
+
+    .m-3 .video__contain--item-cap {
+        font-size: 1.4rem;
+        padding-right: 0;
+    }
+
+    /* --------fixtures----------- */
+    .fixtures--heeader {
+        height: 450px;
+    }
+    
+    .fixtures__header--text {
+        font-size: 4.6rem;
+        left: -140px;
+        margin-bottom: 20px;
+    }
+}
+/* mobile */
+@media (max-width: 740px){
+    .hide--on-mobile {
+        display: none;
+    }
+
+    /* ----------update-news----------- */
+    .news__update--head > span .barRunning {
+        left: 5px;
+    }
+    
+    .news__hot--item .barRunning {
+        left: 320px;
+    }
+
+    /* --------fixtures----------- */
+    .fixtures--heeader {
+        height: 300px;
+    }
+    
+    .fixtures__header--text {
+        font-size: 3rem;
+        left: -100px;
+        margin-bottom: 0px;
+    }
+
+    .fixtures__header--text {
+        font-size: 3rem;
+        left: -100px;
+    }
+    
+    .fixtures__item--main {
+        padding: 0 50px;
+    }
+
+    .fixtures__item--team {
+        position: relative;
+    }
+
+    .fixtures__team--logo {
+        transform: scale(35%) translateY(-15%);
+    }
+
+    .fixtures__epl--item:hover .fixtures__team--logo {
+        transform: scale(40%) translateY(-15%);
+    }
+
+    .fixtures__name--left {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 140px;
+        bottom: 15px;
+        text-align: center;
+    }
+
+    .fixtures__name--right {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 140px;
+        bottom: 15px;
+        text-align: center;
+    }
+
+    .fixtures__premier--cap {
+        font-size: 2rem;
+    }
+
+}
+
+/* mobile-small */
+@media (max-width:440px) {
+    .hide--on-mobileSmall {
+        display: none;
+    }
+
+    /* -----------update-news----------- */
+    .news__hot--item {
+        height: 250px;
+    }
+
+    .news__hot--item-title {
+        padding: 20px 10px 10px; 
+    }
+
+    .newsHot__item--title-caption {
+        font-size: 1.8rem;
+        line-height: 2.2rem ;
+    }
+
+    .newsHot__item--title-text {
+        font-size: 1.2rem;
+    }
+
+    .l-3 .newsHot__item--title-caption {
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+        height: 50px;
+    }
+
+    .l-3 > .news__hot--item > .news__hot--item-title {
+        padding: 10px 5px 5px;
+    }
+
+    .l-3 .newsNote {
+        padding-right: 5px;
+    }
+
+    /* -----------late-video------------ */
+    .video__contain--item {
+        height: 250px;
+    }
+
+    .video__contain--item-ytb {
+        height: 35px;
+        width: 35px;
+    }
+
+    .video__contain--item-iconytb {
+        font-size: 1rem;
+    }
+
+    .video__contain--item-cap {
+        font-synthesis: 1.8rem;
+    }
+
+    .c-6 .video__contain--item-cap {
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+        padding-right: 0;
+    }
+
+    /* --------fixtures----------- */
+    .fixtures--heeader {
+        height: 300px;
+    }
+
+    .fixtures__contain--matchs {
+        padding: 0 10px;
+    }
+    
+    .fixtures__header--text {
+        font-size: 2.2rem;
+        padding-right: 0;
+        line-height: 3rem;
+        left: -100px;
+        margin-bottom: 20px;
+        width: 560px;
+    }
+
+    .fixtures__epl--head {
+        font-size: 2.4rem;
+    }
+
+    .fixtures__item--main {
+        padding: 0;
+    }
+
+    .fixtures__epl--item {
+        padding: 20px 10px;
+    }
+
+    .fixtures__item--team {
+        height: 100px;
+    }
+
+    .fixtures__team--logo {
+        transform: scale(30%) translateY(-30%);
+    }
+
+    .fixtures__epl--item:hover .fixtures__team--logo {
+        transform: scale(33%) translateY(-30%);
+    }
+
+    .fixtures__team--name {
+        font-size: 1.2rem;
+    }
+
+    .fixtures__item--stadium {
+        width: 250px;
+    }
+
+    .fixtures__item--round {
+        font-size: 1rem;
+    }
+
+    .fixtures__item--encounter-text {
+        font-size: 2rem;
+    }
+    
+    .fixtures__matchs--fa {
+        height: 600px;
+    }
+
+    .fixtures__contain--bxh {
+        padding: 10px;
+    }
+
+    .fixtures__premier--logo {
+        height: 110px;
+    }
+
+    .fixtures__premier--gradient{ 
+        height: 210px;
+    }
+    .fixtures__premier--cap {
+        font-size: 1.6rem;
+    }
+}
+
+/* tablet & pc */
+
+@media (min-width: 740px){
+    /* ----- */
+}
+/* screen lineup */
+@media (min-width: 1024.1px) and (max-width: 1240px) {
+    /* -----barRunning -----*/
+    .news__hot--item .barRunning {
+        left: 230px;
+    }
+
+    /* -----------update-news---------- */
+    .news__hot--item {
+        height: 320px;
+    }
+
+    .newsHot__item--title-caption {
+        font-size: 2.2rem;
+        line-height: 2.6rem;
+    }
+
+    /* ----------late-video------------ */
+    .video__contain--item-cap {
+        font-size: 1.8rem;
+        padding-right: 0;
+    }
+
+    .video__contain--item {
+        height: 300px;
+    }
+
+    .video__head.col {
+        display: flex;
+    }
+
+    .l-6 .video__contain--item-cap {
+        font-size: 1.8rem;
+    }
+
+    .video__contain--item-cap {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    .video__contain--item-ytb {
+        height: 40px;
+        width: 40px;
+    }
+
+    /* -----------fixtures--------- */
+    .fixtures__header--text {
+        font-size: 5rem;
+        left: -140px;
+    }
+    
+    .fixtures__item--main {
+        padding: 0 50px;
+    }
+
+    .fixtures__item--team {
+        position: relative;
+    }
+
+    .fixtures__team--logo {
+        transform: scale(35%) translateY(-15%);
+    }
+
+    .fixtures__epl--item:hover .fixtures__team--logo {
+        transform: scale(40%) translateY(-15%);
+    }
+
+    .fixtures__name--left {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 140px;
+        bottom: 15px;
+        text-align: center;
+    }
+
+    .fixtures__name--right {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 140px;
+        bottom: 15px;
+        text-align: center;
+    }
+
+    .fixtures__premier--cap {
+        font-size: 2.4rem;
+    }
+
+}
+
+/* pc-low */
+
+@media (min-width: 1024px) and (max-width: 1380px){
+    .hide--on-pc-low {
+        display: none;
+    }
+}
+
+/* pc */
+@media (max-width: 1113px) and (min-width: 1024px){
+    .hide--on-pc {
+        display: none;
+    }
+}
+
+
+/* pc High configuration */
+
+@media (min-width: 1380.1px){
+    .hide--on-pcHigh {
+        display: none;
+    }
+}

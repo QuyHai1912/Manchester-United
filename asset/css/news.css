@@ -1,0 +1,677 @@
+/* main */
+
+.news {
+    padding-top: 180px;
+    background-color: #f8f8f8;
+}
+
+
+/*----------------- newsHot------------- */
+.news__update--head {
+    height: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.news__update--head > span{
+    font-size: 2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.news__update--head > span .barRunning {
+    bottom: -7px;
+    left: 12px;
+    --bar-width: 115px;
+    width: var(--bar-width);
+}
+
+.news__update--head > span:hover .barRunning {
+    animation: barRunning 0.5s ease;
+}
+
+.news__update--hot {
+    margin-bottom: 30px;
+}
+
+.news__hot--item {
+    display: flex;
+    height: 385px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.news__hot--item:hover {
+    box-shadow: 0 5px 20px rgb(162, 162, 162);
+}
+
+.news__hot--item .barRunning {
+    left: 283px;
+    top: 20px;
+    --bar-width: 65px;
+    width: var(--bar-width);
+}
+
+.news__hot--item:hover .barRunning {
+    animation: barRunning 0.5s ease;
+}
+
+.news__hot--item-img-wrapper {
+    flex: 1;
+    overflow: hidden;
+}
+
+.news__hot--item-img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform 1s ease;
+}
+
+.news__hot--item:hover .news__hot--item-img {
+    transform: scale(1.05);
+}
+
+.news__hot--item-title {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px 10px 10px;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.newsHot__item--title-head {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsHot__item--title-caption {
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 3rem;
+    font-family: BebasNeueBold,Helvetica,sans-serif;
+}
+
+.newsHot__item--title-text {
+    margin-top: 10px;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+
+/* newsHot--bottom */
+
+.l-3 > .news__hot--item {
+    flex-direction: column;
+}
+
+.l-3 > .news__hot--item > .news__hot--item-img-wrapper {
+    flex: 4;
+}
+
+.l-3 > .news__hot--item > .news__hot--item-title {
+    flex: 6;
+}
+
+.l-3 .newsHot__item--title-caption {
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+.l-3 .newsHot__item--title-text {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+}
+
+/* --------------------lates-video---------------------- */
+
+.video.grid.wide {
+    padding: 50px 0;
+}
+
+.video__head.col {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.video__head--name {
+    position: relative;
+    line-height: 3rem;
+    font-size: 2.4rem;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.video__head--name::before {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 118px;
+    height: 3px;
+    background-color: red;
+    top: -9px;
+}
+
+.video__head--ytb {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.video__head--ytb .barRunning {
+    --bar-width:187px;
+    width: var(--bar-width);
+    bottom: 15px;
+    right: 0;
+}
+
+.video__head--ytb:hover .barRunning {
+    animation: barRunning 0.5s ease;
+}
+
+/* video--item */
+
+.video__contain {
+
+}
+
+.video__contain--wrapper {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.video__contain--item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 385px;
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: flex-end;
+    padding: 0 20px 15px;
+    cursor: pointer;
+}
+
+.video__contain--item-bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 1.5s ease;
+}
+
+.video__contain--item:hover .video__contain--item-bg {
+    transform: scale(1.1);
+}
+
+.video__contain--gradient {
+    position: absolute;
+    background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.8));
+    bottom: 0;
+    left: 0;
+    height: 60%;
+    width: 100%;
+}
+
+.video__contain--item-infor {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    z-index: 1;
+}
+
+.video__contain--item-ytb {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.video__contain--item-iconytb {
+    font-size: 1.2rem;
+    color: white;
+} 
+
+.video__contain--item-ytb:hover {
+    transform: scale(1.2);
+}
+
+.video__contain--item-cap {
+    padding-right: 40px;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    font-weight: 600;
+    color: var(--white-color);
+    margin-bottom: 20px;
+}
+.newsNote--time.video--item, 
+.newsNote--type.video--item, 
+.newsNote--share.video--item {
+    color: var(--white-color);
+    z-index: 1;
+    font-size: 1.4rem;
+    border-color: white;
+}
+
+/* ------------fixtures premier league--------------- */
+
+.fixtures--heeader {
+    height: 650px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.fixtures--heeader .barRunning {
+    --bar-width:80px;
+    width: var(--bar-width);
+    bottom: 115px;
+    left: 45px;
+}
+
+.fixtures--heeader:hover .barRunning {
+    animation: barRunning 0.5s ease;
+}
+
+.fixtures__header--text {
+    margin-bottom: 40px;
+    padding-left: 50px;
+    font-size: 6.6rem;
+    line-height: 6.8rem;
+    color: var(--white-color);
+    z-index: 1;
+    font-family: 'Anton', sans-serif;
+    display: inline-block;
+    transform: scaleX(70%);
+    font-weight: 600;
+    position: absolute;
+    left: -190px;
+}
+
+.fixtures.grid {
+    position: relative;
+    background-image: linear-gradient(90deg, red, black);
+}
+
+
+.fixtures .video__contain--gradient {
+    height: 40%;
+    background-image: linear-gradient(180deg, transparent, black);
+}
+
+/* ------fixtures--epl----------- */
+
+.fixtures__contain {
+    display: flex;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    padding: 50px 0;
+}
+
+.fixtures__contain--matchs {
+    display: flex;
+    flex: 55%;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.fixtures__matchs--epl {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    height: 700px;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.fixtures__epl--head {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    line-height: 3.2rem;
+    font-size: 3rem;
+    justify-content: center;
+    color: rgb(255, 0, 0);
+    text-shadow: 
+    0 0 10px #fff200,   /* ánh sáng vàng gần */
+    0 0 20px #ffcc00,   /* vàng đậm hơn */
+    0 0 30px #ff9900,   /* cam sáng */
+    0 0 40px #ff6600;   /* phát quang rộng hơn */
+    transition: all 0.5s ease;
+    font-family:'Courier New', Courier, monospace;
+    z-index: 3;
+}
+
+.fixtures__epl--item {
+    position: relative;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+}
+
+.fixtures__item--content {
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    z-index: 2;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.fixtures__item--stadium {
+    position: absolute;
+    height: 50px;
+    background-color: white;
+    width: 300px;
+    border-radius: 50px;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: flex-start;
+    transition: all 0.5s ease;
+}   
+
+.fixtures__item--stadium-name {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    line-height: 3rem;
+    font-size: 1.6rem;
+    color: white;
+}
+
+.fixtures__item--round {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 10px;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.fixtures__item--main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 0;
+}
+
+.fixtures__item--team {
+    display: flex;
+    align-items: center;
+    height: 120px;
+}
+
+.fixtures__team--logo {
+    transform: scale(45%);
+    transition: all 0.5s ease;
+}
+
+.fixtures__team--logo-img {
+    transition: all 0.5s ease;
+}
+
+.fixtures__epl--item:hover .fixtures__team--name {
+    color: rgb(255, 255, 255);
+    text-shadow: 
+    0 0 10px #fff200,   /* ánh sáng vàng gần */
+    0 0 20px #ffcc00,   /* vàng đậm hơn */
+    0 0 30px #ff9900,   /* cam sáng */
+    0 0 40px #ff6600;   /* phát quang rộng hơn */
+    transition: all 0.5s ease;
+}
+
+.fixtures__epl--item:hover .fixtures__item--stadium {
+    top: -8px;
+}
+
+.fixtures__epl--item:hover .fixtures__team--logo {
+    transform: scale(50%);
+}
+
+.fixtures__team--name {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: 500;
+    color: #fff8f8;
+}
+
+.fixtures__item--encounter {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.fixtures__item--encounter-text {
+    font-size: 3rem;
+    line-height: 3.4rem;
+    color: white;
+    font-family: Libertinus Mono, sans-serif;
+}
+
+.fixtures__item--date {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: white;
+}
+
+/* -------FA cup */
+
+.fixtures__matchs--fa {
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    height: 700px;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+/* ============Rankings=============== */
+
+.fixtures__contain--bxh {
+    flex: 45%;
+    padding: 0 20px;
+}
+
+.fixtures__contain--ranking {
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    background-image: url('/asset/img/bacckgb-premier.jpg');
+}
+
+.fixtures__premier--logo {
+    background-image: url('/asset/img/Premier-League-background.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 130px;
+}
+
+.fixtures__premier--gradient {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    right: 0;
+    height: 260px;
+    background-image: linear-gradient(0, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 15%, rgba(92, 2, 125, 1) 62%, rgba(216, 89, 255, 0) 100%);
+    z-index: 1;
+}
+
+.fixtures__premier--cap {
+    position: absolute;
+    top: 130px;
+    display: flex;
+    justify-self: center;
+    font-size: 3rem;
+    line-height: 3.4rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 
+    0 0 10px #fff200,   /* ánh sáng vàng gần */
+    0 0 20px #ffcc00,   /* vàng đậm hơn */
+    0 0 30px #ff9900,   /* cam sáng */
+    0 0 40px #ff6600;   /* phát quang rộng hơn */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 2;
+}
+
+.fixtures__contain--rank {
+    display: flex;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.fixtures__rank--table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table--lineheight {
+    height: 50px;
+    border-bottom: 3px solid #f9f9f9;
+}
+
+.table--lineheight:nth-child(1),
+.table--lineheight:nth-child(4),
+.table--lineheight:nth-child(7) {
+    border-bottom: 3px solid #8d4dd7;
+}
+
+.table--lineheight:nth-child(17) {
+    border-bottom: 3px solid #e81111;
+}
+
+.table--lineheight:nth-child(20) {
+    border-bottom:none;
+}
+
+.table--lineheight:nth-child(14) {
+    background-image: linear-gradient(270deg, rgb(244, 89, 89), white);
+}
+
+.table--lineheight--head.table--lineheight {
+    border: none;
+}
+
+.table--head {
+    font-size: 1.6rem;
+}
+
+.table__heead--club {
+    text-align: left;
+}
+
+.fixtures__rank--pos {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #30082f;
+    text-align: center;
+}
+
+.fixtures__rank__club {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50px;
+}
+
+.fixtures__rank--logo {
+
+}
+
+.fixtures__rank--logo > img {
+    height: 30px;
+}
+
+.fixtures__rank--name {
+    display: flex;
+    margin-left: 10px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #30082f;
+}
+
+.fixtures__rank--round {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+    color: #30082f;
+
+}
+
+.fixtures__rank--gd {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+    color: #30082f;
+
+}
+
+.fixtures__rank--pts {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+    color: #30082f;
+
+}
+
+
+
+
+
+
+
+

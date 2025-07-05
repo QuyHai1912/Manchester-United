@@ -1,0 +1,1237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Manchester United</title>
+    <link rel="icon" href="../asset/img/logotitle.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../asset/css/base.css">
+    <link rel="stylesheet" href="../asset/css/main.css">
+    <link rel="stylesheet" href="../asset/css/news.css">
+    <link rel="stylesheet" href="../asset/css/grid.css">
+    <link rel="stylesheet" href="../asset/font/fontawesome-free-6.7.1-web/css/all.min.css">
+    <link rel="stylesheet" href="../asset/css/responsive.css">
+    <link rel="stylesheet" href="../asset/css/responNews.css">
+</head>
+
+<body>
+
+    <div class="app">
+        <!-- ✅ NAVBAR độc lập -->
+        <nav class="nav__bar">
+
+            <!-- logo -->
+            <div class="nav__logo">
+                <img class="nav__logo--img" src="../asset/img/logo.png" alt="logo">
+            </div>
+
+            <!-- Greeting & category -->
+            <div class="nav__right">
+                <div class="nav__greeting">  
+                    <h1 class="greeting--text hide--on-mobile"><span class="hide--on-mobile-tablet">Welcom to</span> Manchester United</h1>
+                    <!-- hidden -->
+                    <div class="nav__user hidden">
+                        <a class="nav__user--item user--item-register">
+                            <i class="user--item-icon fa-solid fa-user-tie"></i>
+                            <span class="user--text ">Register</span>
+                        </a>
+                        <a class="nav__user--item user--item-login">
+                            <i class="user--item-icon fa-solid fa-user-tie"></i>
+                            <span class="user--text ">Login</span>
+                        </a>
+                    </div>
+                    <!-- hidden -->
+                    <div class="nav__user">
+                        <a class="nav__user--item">
+                            <i class="user--item-icon fa-solid fa-user-tie"></i>
+                            <span class="user--text">Quy</span>
+                            <ul class="user__list">
+                                <li class="user__list--item">Cart</li>
+                                <li class="user__list--item">Log Out</li>
+                            </ul>
+                        </a>
+                        <!-- <a href="" class="nav__users hidden"><i class="user--icon fa-solid fa-user-tie"></i></a> -->
+                    </div>
+                </div>
+
+                <div class="nav__bottom">
+                    <span class="nav__preface hide--on-mobile-tablet">
+                        The strongest team in English history
+                    </span>
+                    <ul class="nav__category">
+                        <!-- active - làm nổi bật ppage đang mở --> 
+                        <li class="category--items">
+                            <a href="../index.html" class="category--item"><i class="category--item-icon fa-solid fa-house"></i>Home</a>
+                        </li>
+                        <li class="category--items">
+                            <a href="player.html" class="category--item"><i class="category--item-icon fa-solid fa-users"></i>Player</a>
+                        </li>
+                        <li class="category--items">
+                            <a href="news.html" class="category--item active"><i class="category--item-icon fa-solid fa-newspaper"></i>News</a>
+                        </li>
+                        <li class="category--items">
+                            <a href="store.html" class="category--item"><i class="category--item-icon fa-solid fa-shop"></i>Store</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="nav__crossbar"></div>
+            </div>
+        </nav>
+        <!-- main -->
+        <main class="news">
+            <!-- news update -->
+            <div class="news__update grid wide">
+                <div class="row">
+                    <div class="news__update--head col l-12 c-12 m-12">
+                        <span>Update news
+                            <div class="barRunning"></div>
+                        </span>
+                    </div>
+                    <div class="news__update--hot l-6 m-6 c-12 col">
+                        <div class="news__hot--item ">
+                            <div class="barRunning hide--on-mobile-tablet"></div>
+                            <div class="news__hot--item-img-wrapper">
+                                <div class="news__hot--item-img" style="background-image: url('../asset/img/newsHot/newsHot-1.webp');"></div>
+                            </div>
+                            <div class="news__hot--item-title">
+                                <div class="newsHot__item--title-head">
+                                    <h2 class="newsHot__item--title-caption">WHEN ARE THE UNITED PLAYERS DUE BACK?</h2>
+                                    <p class="newsHot__item--title-text">It will not be long before the Reds return Carrington for pre-sesson training.</p>    
+                                </div>
+                                <div class="newsNote">
+                                    <div class="newsNote--time-type">
+                                        <span class="newsNote--time">1h</span>
+                                        <span class="newsNote--type">news</span>
+                                    </div>
+                                    <span class="newsNote--share"><i class="newsNote__share--icon fa-solid fa-share-nodes"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news__update--hot l-6 m-6 c-12 col">
+                        <div class="news__hot--item  ">
+                            <div class="barRunning hide--on-mobile-tablet"></div>
+                            <div class="news__hot--item-img-wrapper">
+                                <div class="news__hot--item-img" style="background-image: url('../asset/img/newsHot/newsHot-2.avif');"></div>
+                            </div>
+                            <div class="news__hot--item-title">
+                                <div class="newsHot__item--title-head">
+                                    <h2 class="newsHot__item--title-caption">THE ENGLISH SUPER CLASSIC OPENS THE 25-26 SESSON</h2>
+                                    <p class="newsHot__item--title-text">MU vs Arsenal will face each other in the opening match of the Premier League</p>
+                                </div>
+                                <div class="newsNote">
+                                    <div class="newsNote--time-type">
+                                        <span class="newsNote--time">3h</span>
+                                        <span class="newsNote--type">news</span>
+                                    </div>
+                                    <span class="newsNote--share"><i class="newsNote__share--icon fa-solid fa-share-nodes"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news__update--hot l-3 col m-3 c-6">
+                        <div class="news__hot--item ">
+                            <div class="news__hot--item-img-wrapper">
+                                <div class="news__hot--item-img" style="background-image: url('../asset/img/newsHot/bruno-fernandes-7\ \(3\).jpg');"></div>
+                            </div>
+                            <div class="news__hot--item-title">
+                                <div class="newsHot__item--title-head">
+                                    <h2 class="newsHot__item--title-caption">CAPTAIN BRUNO FERNANDES REFUSES TO JOIN AL-HILAL</h2>
+                                    <p class="newsHot__item--title-text">According to the latest information on June 17, Bruno refused Al-Hilal to donate to Manchester United.</p>    
+                                </div>
+                                <div class="newsNote">
+                                    <div class="newsNote--time-type">
+                                        <span class="newsNote--time">1h</span>
+                                        <span class="newsNote--type">news</span>
+                                    </div>
+                                    <span class="newsNote--share"><i class="newsNote__share--icon fa-solid fa-share-nodes"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news__update--hot l-3 col m-3 c-6">
+                        <div class="news__hot--item  ">
+                            <div class="news__hot--item-img-wrapper">
+                                <div class="news__hot--item-img" style="background-image: url('../asset/img/newsHot/cunhajoin.jpg');"></div>
+                            </div>
+                            <div class="news__hot--item-title">
+                                <div class="newsHot__item--title-head">
+                                    <h2 class="newsHot__item--title-caption">MATHEUS CUNHA JOINS MANCHESTER UNITED</h2>
+                                    <p class="newsHot__item--title-text">Matheus Cunha officially signs contract with Manchester United</p>
+                                </div>
+                                <div class="newsNote">
+                                    <div class="newsNote--time-type">
+                                        <span class="newsNote--time">5h</span>
+                                        <span class="newsNote--type">news</span>
+                                    </div>
+                                    <span class="newsNote--share"><i class="newsNote__share--icon fa-solid fa-share-nodes"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news__update--hot l-3 col m-3 c-6">
+                        <div class="news__hot--item ">
+                            <div class="news__hot--item-img-wrapper">
+                                <div class="news__hot--item-img" style="background-image: url('../asset/img/newsHot/oldtranford.jpg');"></div>
+                            </div>
+                            <div class="news__hot--item-title">
+                                <div class="newsHot__item--title-head">
+                                    <h2 class="newsHot__item--title-caption">OLD TRANS FORD STADIUM REBUILD PLAN</h2>
+                                    <p class="newsHot__item--title-text">Manchester United are pushing to rebuild the stadium.</p>    
+                                </div>
+                                <div class="newsNote">
+                                    <div class="newsNote--time-type">
+                                        <span class="newsNote--time">18h</span>
+                                        <span class="newsNote--type">news</span>
+                                    </div>
+                                    <span class="newsNote--share"><i class="newsNote__share--icon fa-solid fa-share-nodes"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news__update--hot l-3 col m-3 c-6">
+                        <div class="news__hot--item  ">
+                            <div class="news__hot--item-img-wrapper">
+                                <div class="news__hot--item-img" style="background-image: url('../asset/img/newsHot/rash4_sancho_cut.jpg');"></div>
+                            </div>
+                            <div class="news__hot--item-title">
+                                <div class="newsHot__item--title-head">
+                                    <h2 class="newsHot__item--title-caption">ENGLISH 'WORMS' AT THE CLUB</h2>
+                                    <p class="newsHot__item--title-text">Rashford and sancho have actions that anger mu fans</p>
+                                </div>
+                                <div class="newsNote">
+                                    <div class="newsNote--time-type">
+                                        <span class="newsNote--time">1d</span>
+                                        <span class="newsNote--type">news</span>
+                                    </div>
+                                    <span class="newsNote--share"><i class="newsNote__share--icon fa-solid fa-share-nodes"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- latest video -->
+            <div class="video grid wide">
+                <div class="row">
+                    <div class="video__head col l-12 m-12 c-12">
+                        <span class="video__head--name">LATEST VIEO</span>
+                        <a href="https://www.youtube.com/@manutd" class="video__head--ytb">WATCH MORE AT YOUTUBE
+                            <div class="barRunning"></div>
+                        </a>
+                    </div>
+                    <div class="video__contain col grid">
+                        <div class="row">
+                            <div class="video__contain--wrapper l-6 m-6 c-12 col">
+                                <div class="video__contain--item">
+                                    <div class="video__contain--item-bg" style="background-image: url('../asset/img/LATES-VIDEO/ander-herrera-ALLGOALS.jpg');"></div>
+                                    <div class="video__contain--gradient"></div>
+                                    <div class="video__contain--item-infor">
+                                        <a href="" class="video__contain--item-ytb">
+                                            <i class="video__contain--item-iconytb fa-solid fa-play"></i>
+                                        </a>
+                                        <h2 class="video__contain--item-cap">ALL THE GOALS: ANDER HERRERA</h2>
+                                    </div>    
+                                    <div class="newsNote">
+                                        <div class="newsNote--time-type">
+                                            <span class="newsNote--time video--item">1h</span>
+                                            <span class="newsNote--type video--item">news</span>
+                                        </div>
+                                        <span class="newsNote--share video--item"><i class="newsNote__share--icon fa-solid fa-share-nodes"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="video__contain--wrapper l-6 m-6 c-12 col">
+                                <div class="video__contain--item">
+                                    <div class="video__contain--item-bg" style="background-image: url('../asset/img/LATES-VIDEO/eriksen.webp');"></div>
+                                    <div class="video__contain--gradient"></div>
+                                    <div class="video__contain--item-infor">
+                                        <a href="" class="video__contain--item-ytb">
+                                            <i class="video__contain--item-iconytb fa-solid fa-play"></i>
+                                        </a>
+                                        <h2 class="video__contain--item-cap">THANK YOU ERIKSEN</h2>
+                                    </div>    
+                                    <div class="newsNote">
+                                        <div class="newsNote--time-type">
+                                            <span class="newsNote--time video--item">1h</span>
+                                            <span class="newsNote--type video--item">video</span>
+                                        </div>
+                                        <span class="newsNote--share video--item"><i class="newsNote__share--icon fa-solid fa-share-nodes"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="video__contain--wrapper l-3 m-3 c-6 col">
+                                <div class="video__contain--item">
+                                    <div class="video__contain--item-bg" style="background-image: url('../asset/img/LATES-VIDEO/amad.jpg_large');"></div>
+                                    <div class="video__contain--gradient"></div>
+                                    <div class="video__contain--item-infor">
+                                        <a href="" class="video__contain--item-ytb">
+                                            <i class="video__contain--item-iconytb fa-solid fa-play"></i>
+                                        </a>
+                                        <h2 class="video__contain--item-cap">AMAD:TOP 20 GOALS IN 24-25 SESSON </h2>
+                                    </div>    
+                                    <div class="newsNote">
+                                        <div class="newsNote--time-type">
+                                            <span class="newsNote--time video--item">5h</span>
+                                            <span class="newsNote--type video--item">video</span>
+                                        </div>
+                                        <span class="newsNote--share video--item"><i class="newsNote__share--icon fa-solid fa-share-nodes"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="video__contain--wrapper l-3 m-3 c-6 col">
+                                <div class="video__contain--item">
+                                    <div class="video__contain--item-bg" style="background-image: url('../asset/img/LATES-VIDEO/linderlof.webp');"></div>
+                                    <div class="video__contain--gradient"></div>
+                                    <div class="video__contain--item-infor">
+                                        <a href="" class="video__contain--item-ytb">
+                                            <i class="video__contain--item-iconytb fa-solid fa-play"></i>
+                                        </a>
+                                        <h2 class="video__contain--item-cap">TELLING VICTOR HOW THE FANS FEEL</h2>
+                                    </div>    
+                                    <div class="newsNote">
+                                        <div class="newsNote--time-type">
+                                            <span class="newsNote--time video--item">18h</span>
+                                            <span class="newsNote--type video--item">video</span>
+                                        </div>
+                                        <span class="newsNote--share video--item"><i class="newsNote__share--icon fa-solid fa-share-nodes"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="video__contain--wrapper l-3 m-3 c-6 col">
+                                <div class="video__contain--item">
+                                    <div class="video__contain--item-bg" style="background-image: url('../asset/img/LATES-VIDEO/ander-herrera-talkshow.webp');"></div>
+                                    <div class="video__contain--gradient"></div>
+                                    <div class="video__contain--item-infor">
+                                        <a href="" class="video__contain--item-ytb">
+                                            <i class="video__contain--item-iconytb fa-solid fa-play"></i>
+                                        </a>
+                                        <h2 class="video__contain--item-cap">WHEN 'IMPOSTERS' JUMPED ON HERRERA'S TRANFER</h2>
+                                    </div>    
+                                    <div class="newsNote">
+                                        <div class="newsNote--time-type">
+                                            <span class="newsNote--time video--item">1d</span>
+                                            <span class="newsNote--type video--item">video</span>
+                                        </div>
+                                        <span class="newsNote--share video--item"><i class="newsNote__share--icon fa-solid fa-share-nodes"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="video__contain--wrapper l-3 m-3 c-6 col">
+                                <div class="video__contain--item">
+                                    <div class="video__contain--item-bg" style="background-image: url('../asset/img/LATES-VIDEO/zikzee.jpg');"></div>
+                                    <div class="video__contain--gradient"></div>
+                                    <div class="video__contain--item-infor">
+                                        <a href="" class="video__contain--item-ytb">
+                                            <i class="video__contain--item-iconytb fa-solid fa-play"></i>
+                                        </a>
+                                        <h2 class="video__contain--item-cap">ZIRKZEE: MANCHESTER'S NEW STRIKER</h2>
+                                    </div>    
+                                    <div class="newsNote">
+                                        <div class="newsNote--time-type">
+                                            <span class="newsNote--time video--item">2d</span>
+                                            <span class="newsNote--type video--item">video</span>
+                                        </div>
+                                        <span class="newsNote--share video--item"><i class="newsNote__share--icon fa-solid fa-share-nodes"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fixtures -->
+             <div class="fixtures--heeader" style="background-image: url('../asset/img/25-26-sesson.webp');">
+                <div class="video__contain--gradient"></div>
+                <div class="barRunning hide--on-mobile-tablet"></div>
+                <span class="fixtures__header--text">UNITED'S PERMIER LEAGUE FIXTURES</span>
+             </div>
+             <div class="fixtures grid">
+                <div class="video__contain--gradient"></div>
+                <div class="fixtures__contain">
+                    <div class="fixtures__contain--matchs">
+                        <div class="fixtures__matchs--epl">
+                            <h2 class="fixtures__epl--head">Premier League</h2>
+                            <!-- round 1 -->
+                            <div class="fixtures__epl--item">
+                                <div class="fixtures__item--stadium" style="background-image: linear-gradient(0, rgb(230, 193, 193), rgb(242, 5, 5));">
+                                    <span class="fixtures__item--stadium-name" >Old Transford stadium</span>
+                                </div>
+                                <div class="fixtures__item--content" style="background-image: linear-gradient(to right, #ff0000, #ffffff); ">
+                                    <span class="fixtures__item--round">Round 1</span>
+                                    <div class="fixtures__item--main">
+                                        <div class="fixtures__item--team">
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Manchester United.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                            <span class="fixtures__team--name fixtures__name--left">Manchester United</span>
+                                        </div>
+                                        <div class="fixtures__item--encounter">
+                                            <span class="fixtures__item--encounter-text">VS</span>
+                                            <span class="fixtures__item--date">17 - 8</span>
+                                        </div>
+                                        <div class="fixtures__item--team">
+                                            <span class="fixtures__team--name fixtures__name--right">Arsenal</span>
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo//Arsenal FC.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- round 2 -->
+                             <div class="fixtures__epl--item">
+                                <div class="fixtures__item--stadium" style="background-image: linear-gradient(0, rgb(255, 255, 255), rgb(0, 0, 0));">
+                                    <span class="fixtures__item--stadium-name" >Craven Cottage stadium</span>
+                                </div>
+                                <div class="fixtures__item--content" style="background-image: linear-gradient(to right, #000000, #e14646); ">
+                                    <span class="fixtures__item--round">Round 2</span>
+                                    <div class="fixtures__item--main">
+                                        <div class="fixtures__item--team">
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Fulham FC.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                            <span class="fixtures__team--name fixtures__name--left">Fullham</span>
+                                        </div>
+                                        <div class="fixtures__item--encounter">
+                                            <span class="fixtures__item--encounter-text">VS</span>
+                                            <span class="fixtures__item--date">23 - 8</span>
+                                        </div>
+                                        <div class="fixtures__item--team">
+                                            <span class="fixtures__team--name fixtures__name--right">Manchester United</span>
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Manchester United.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- round 3 -->
+                            <div class="fixtures__epl--item">
+                                <div class="fixtures__item--stadium" style="background-image: linear-gradient(0, rgb(230, 193, 193), rgb(242, 5, 5));">
+                                    <span class="fixtures__item--stadium-name" >Old Transford stadium</span>
+                                </div>
+                                <div class="fixtures__item--content" style="background-image: linear-gradient(to right, #ff0000, #9318d1); ">
+                                    <span class="fixtures__item--round">Round 3</span>
+                                    <div class="fixtures__item--main">
+                                        <div class="fixtures__item--team">
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Manchester United.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                            <span class="fixtures__team--name fixtures__name--left">Manchester United</span>
+                                        </div>
+                                        <div class="fixtures__item--encounter">
+                                            <span class="fixtures__item--encounter-text">VS</span>
+                                            <span class="fixtures__item--date">30 - 8</span>
+                                        </div>
+                                        <div class="fixtures__item--team">
+                                            <span class="fixtures__team--name fixtures__name--right">Burnley</span>
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Burnley FC.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- round 4 -->
+                             <div class="fixtures__epl--item">
+                                <div class="fixtures__item--stadium" style="background-image: linear-gradient(0, rgb(230, 193, 193), rgb(242, 5, 5));">
+                                    <span class="fixtures__item--stadium-name" >Old Transford stadium</span>
+                                </div>
+                                <div class="fixtures__item--content" style="background-image: linear-gradient(to right, #ff0000, #009bf5); ">
+                                    <span class="fixtures__item--round">Round 4</span>
+                                    <div class="fixtures__item--main">
+                                        <div class="fixtures__item--team">
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Manchester United.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                            <span class="fixtures__team--name fixtures__name--left">Manchester United</span>
+                                        </div>
+                                        <div class="fixtures__item--encounter">
+                                            <span class="fixtures__item--encounter-text">VS</span>
+                                            <span class="fixtures__item--date">13 - 9</span>
+                                        </div>
+                                        <div class="fixtures__item--team">
+                                            <span class="fixtures__team--name fixtures__name--right">Manchester City</span>
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Manchester City.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- round 5 -->
+                             <div class="fixtures__epl--item">
+                                <div class="fixtures__item--stadium" style="background-image: linear-gradient(0, rgb(255, 255, 255), rgb(233, 0, 0));">
+                                    <span class="fixtures__item--stadium-name" >Old Tranford stadium</span>
+                                </div>
+                                <div class="fixtures__item--content" style="background-image: linear-gradient(to right, #ff0000, #0728fc); ">
+                                    <span class="fixtures__item--round">Round 5</span>
+                                    <div class="fixtures__item--main">
+                                        <div class="fixtures__item--team">
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Manchester United.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                            <span class="fixtures__team--name fixtures__name--left">Manchester United</span>
+                                        </div>
+                                        <div class="fixtures__item--encounter">
+                                            <span class="fixtures__item--encounter-text">VS</span>
+                                            <span class="fixtures__item--date">20 - 9</span>
+                                        </div>
+                                        <div class="fixtures__item--team">
+                                            <span class="fixtures__team--name fixtures__name--right">Chealse</span>
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Chelsea FC.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- round 6 -->
+                             <div class="fixtures__epl--item">
+                                <div class="fixtures__item--stadium" style="background-image: linear-gradient(0, rgb(255, 255, 255), rgb(242, 5, 5));">
+                                    <span class="fixtures__item--stadium-name" >Gtech Community stadium</span>
+                                </div>
+                                <div class="fixtures__item--content" style="background-image: linear-gradient(to right, #e1e1e1, #f50000); ">
+                                    <span class="fixtures__item--round">Round 3</span>
+                                    <div class="fixtures__item--main">
+                                        <div class="fixtures__item--team">
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Brentford FC.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                            <span class="fixtures__team--name fixtures__name--left">Brentford</span>
+                                        </div>
+                                        <div class="fixtures__item--encounter">
+                                            <span class="fixtures__item--encounter-text">VS</span>
+                                            <span class="fixtures__item--date">27 - 9</span>
+                                        </div>
+                                        <div class="fixtures__item--team">
+                                            <span class="fixtures__team--name fixtures__name--right">Manchester United</span>
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Manchester United.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- round 7 -->
+                            <div class="fixtures__epl--item">
+                                <div class="fixtures__item--stadium" style="background-image: linear-gradient(0, rgb(230, 193, 193), rgb(242, 5, 5));">
+                                    <span class="fixtures__item--stadium-name" >Old Transford stadium</span>
+                                </div>
+                                <div class="fixtures__item--content" style="background-image: linear-gradient(to right, #ff0000, #ffffff); ">
+                                    <span class="fixtures__item--round">Round 7</span>
+                                    <div class="fixtures__item--main">
+                                        <div class="fixtures__item--team">
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Manchester United.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                            <span class="fixtures__team--name fixtures__name--left">Manchester United</span>
+                                        </div>
+                                        <div class="fixtures__item--encounter">
+                                            <span class="fixtures__item--encounter-text">VS</span>
+                                            <span class="fixtures__item--date">4 - 10</span>
+                                        </div>
+                                        <div class="fixtures__item--team">
+                                            <span class="fixtures__team--name fixtures__name--right">Sunderland</span>
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Sunderland AFC.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- round 8 -->
+                             <div class="fixtures__epl--item">
+                                <div class="fixtures__item--stadium" style="background-image: linear-gradient(0, rgb(255, 255, 255), rgb(236, 8, 8));">
+                                    <span class="fixtures__item--stadium-name" >Anfeild stadium</span>
+                                </div>
+                                <div class="fixtures__item--content" style="background-image: linear-gradient(to right, #f08080, #e14646); ">
+                                    <span class="fixtures__item--round">Round 8</span>
+                                    <div class="fixtures__item--main">
+                                        <div class="fixtures__item--team">
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Liverpool FC.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                            <span class="fixtures__team--name fixtures__name--left">Liverpool</span>
+                                        </div>
+                                        <div class="fixtures__item--encounter">
+                                            <span class="fixtures__item--encounter-text">VS</span>
+                                            <span class="fixtures__item--date">18 - 10</span>
+                                        </div>
+                                        <div class="fixtures__item--team">
+                                            <span class="fixtures__team--name fixtures__name--right">Manchester United</span>
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Manchester United.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- round 9 -->
+                             <div class="fixtures__epl--item">
+                                <div class="fixtures__item--stadium" style="background-image: linear-gradient(0, rgb(230, 193, 193), rgb(242, 5, 5));">
+                                    <span class="fixtures__item--stadium-name" >Old Transford stadium</span>
+                                </div>
+                                <div class="fixtures__item--content" style="background-image: linear-gradient(to right, #ff0000, #009bf5); ">
+                                    <span class="fixtures__item--round">Round 9</span>
+                                    <div class="fixtures__item--main">
+                                        <div class="fixtures__item--team">
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Manchester United.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                            <span class="fixtures__team--name fixtures__name--left">Manchester United</span>
+                                        </div>
+                                        <div class="fixtures__item--encounter">
+                                            <span class="fixtures__item--encounter-text">VS</span>
+                                            <span class="fixtures__item--date">25 - 10</span>
+                                        </div>
+                                        <div class="fixtures__item--team">
+                                            <span class="fixtures__team--name fixtures__name--right">Brighton</span>
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Brighton & Hove Albion.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- round 10 -->
+                            <div class="fixtures__epl--item">
+                                <div class="fixtures__item--stadium" style="background-image: linear-gradient(0, rgb(230, 193, 193), rgb(242, 5, 5));">
+                                    <span class="fixtures__item--stadium-name" >City Ground stadium</span>
+                                </div>
+                                <div class="fixtures__item--content" style="background-image: linear-gradient(to right, #dbc1c1, #e91d1d); ">
+                                    <span class="fixtures__item--round">Round 10</span>
+                                    <div class="fixtures__item--main">
+                                        <div class="fixtures__item--team">
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Nottingham Forest.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                            <span class="fixtures__team--name fixtures__name--left">Nottingham Forest</span>
+                                        </div>
+                                        <div class="fixtures__item--encounter">
+                                            <span class="fixtures__item--encounter-text">VS</span>
+                                            <span class="fixtures__item--date">1 - 11</span>
+                                        </div>
+                                        <div class="fixtures__item--team">
+                                            <span class="fixtures__team--name fixtures__name--right">Manchester United</span>
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Manchester United.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- round 11 -->
+                             <div class="fixtures__epl--item">
+                                <div class="fixtures__item--stadium" style="background-image: linear-gradient(0, rgb(255, 255, 255), rgb(70, 196, 250));">
+                                    <span class="fixtures__item--stadium-name" >Tottenham Hotspur stadium</span>
+                                </div>
+                                <div class="fixtures__item--content" style="background-image: linear-gradient(to right, #eeeeee, #e14646); ">
+                                    <span class="fixtures__item--round">Round 11</span>
+                                    <div class="fixtures__item--main">
+                                        <div class="fixtures__item--team">
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Tottenham Hotspur.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                            <span class="fixtures__team--name fixtures__name--left">Tottenham Hotspur</span>
+                                        </div>
+                                        <div class="fixtures__item--encounter">
+                                            <span class="fixtures__item--encounter-text">VS</span>
+                                            <span class="fixtures__item--date">8 - 11</span>
+                                        </div>
+                                        <div class="fixtures__item--team">
+                                            <span class="fixtures__team--name fixtures__name--right">Manchester United</span>
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Manchester United.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- round 12 -->
+                             <div class="fixtures__epl--item">
+                                <div class="fixtures__item--stadium" style="background-image: linear-gradient(0, rgb(230, 193, 193), rgb(242, 5, 5));">
+                                    <span class="fixtures__item--stadium-name" >Old Transford stadium</span>
+                                </div>
+                                <div class="fixtures__item--content" style="background-image: linear-gradient(to right, #ff0000, #009bf5); ">
+                                    <span class="fixtures__item--round">Round 12</span>
+                                    <div class="fixtures__item--main">
+                                        <div class="fixtures__item--team">
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Manchester United.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                            <span class="fixtures__team--name fixtures__name--left">Manchester United</span>
+                                        </div>
+                                        <div class="fixtures__item--encounter">
+                                            <span class="fixtures__item--encounter-text">VS</span>
+                                            <span class="fixtures__item--date">22 -11</span>
+                                        </div>
+                                        <div class="fixtures__item--team">
+                                            <span class="fixtures__team--name fixtures__name--right">Eventon</span>
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Everton FC.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- round 13 -->
+                            <div class="fixtures__epl--item">
+                                <div class="fixtures__item--stadium" style="background-image: linear-gradient(0, rgb(230, 193, 193), rgb(9, 0, 189));">
+                                    <span class="fixtures__item--stadium-name" >Selhurst Park stadium</span>
+                                </div>
+                                <div class="fixtures__item--content" style="background-image: linear-gradient(to right, #0614b4, #f70000); ">
+                                    <span class="fixtures__item--round">Round 13</span>
+                                    <div class="fixtures__item--main">
+                                        <div class="fixtures__item--team">
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Crystal Palace.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                            <span class="fixtures__team--name fixtures__name--left">Crystal Palace</span>
+                                        </div>
+                                        <div class="fixtures__item--encounter">
+                                            <span class="fixtures__item--encounter-text">VS</span>
+                                            <span class="fixtures__item--date">29 - 11</span>
+                                        </div>
+                                        <div class="fixtures__item--team">
+                                            <span class="fixtures__team--name fixtures__name--right">Manchester United</span>
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Manchester United.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- round 14 -->
+                             <div class="fixtures__epl--item">
+                                <div class="fixtures__item--stadium" style="background-image: linear-gradient(0, rgb(255, 255, 255), rgb(214, 9, 9));">
+                                    <span class="fixtures__item--stadium-name" >Old Transford stadium</span>
+                                </div>
+                                <div class="fixtures__item--content" style="background-image: linear-gradient(to right, #fe0404, #833030); ">
+                                    <span class="fixtures__item--round">Round 14</span>
+                                    <div class="fixtures__item--main">
+                                        <div class="fixtures__item--team">
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Manchester United.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                            <span class="fixtures__team--name fixtures__name--left">Manchester United</span>
+                                        </div>
+                                        <div class="fixtures__item--encounter">
+                                            <span class="fixtures__item--encounter-text">VS</span>
+                                            <span class="fixtures__item--date">3 - 12</span>
+                                        </div>
+                                        <div class="fixtures__item--team">
+                                            <span class="fixtures__team--name fixtures__name--right">West ham</span>
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/West Ham United.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- round 15 -->
+                             <div class="fixtures__epl--item">
+                                <div class="fixtures__item--stadium" style="background-image: linear-gradient(0, rgb(230, 193, 193), rgb(248, 236, 7));">
+                                    <span class="fixtures__item--stadium-name" >Molineux Stadium stadium</span>
+                                </div>
+                                <div class="fixtures__item--content" style="background-image: linear-gradient(to right, #ffcc00, #f31400); ">
+                                    <span class="fixtures__item--round">Round 15</span>
+                                    <div class="fixtures__item--main">
+                                        <div class="fixtures__item--team">
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Wolverhampton Wanderers.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                            <span class="fixtures__team--name fixtures__name--left">Wolverhampton</span>
+                                        </div>
+                                        <div class="fixtures__item--encounter">
+                                            <span class="fixtures__item--encounter-text">VS</span>
+                                            <span class="fixtures__item--date">6 - 12</span>
+                                        </div>
+                                        <div class="fixtures__item--team">
+                                            <span class="fixtures__team--name fixtures__name--right">Manchester United</span>
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Manchester City.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- round 16 -->
+                            <div class="fixtures__epl--item">
+                                <div class="fixtures__item--stadium" style="background-image: linear-gradient(0, rgb(230, 193, 193), rgb(242, 5, 5));">
+                                    <span class="fixtures__item--stadium-name" >Old Transford stadium</span>
+                                </div>
+                                <div class="fixtures__item--content" style="background-image: linear-gradient(to right, #ff0000, #1d1c1c); ">
+                                    <span class="fixtures__item--round">Round 16</span>
+                                    <div class="fixtures__item--main">
+                                        <div class="fixtures__item--team">
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Manchester United.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                            <span class="fixtures__team--name fixtures__name--left">Manchester United</span>
+                                        </div>
+                                        <div class="fixtures__item--encounter">
+                                            <span class="fixtures__item--encounter-text">VS</span>
+                                            <span class="fixtures__item--date">13 - 12</span>
+                                        </div>
+                                        <div class="fixtures__item--team">
+                                            <span class="fixtures__team--name fixtures__name--right">AFC Bournemouth</span>
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/AFC Bournemouth.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- round 17 -->
+                             <div class="fixtures__epl--item">
+                                <div class="fixtures__item--stadium" style="background-image: linear-gradient(0, rgb(255, 255, 255), rgb(6, 72, 227));">
+                                    <span class="fixtures__item--stadium-name" >Villa Park stadium</span>
+                                </div>
+                                <div class="fixtures__item--content" style="background-image: linear-gradient(to right, #073af2, #e14646); ">
+                                    <span class="fixtures__item--round">Round 17</span>
+                                    <div class="fixtures__item--main">
+                                        <div class="fixtures__item--team">
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Aston Villa.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                            <span class="fixtures__team--name fixtures__name--left">Aston Villa</span>
+                                        </div>
+                                        <div class="fixtures__item--encounter">
+                                            <span class="fixtures__item--encounter-text">VS</span>
+                                            <span class="fixtures__item--date">20 - 12</span>
+                                        </div>
+                                        <div class="fixtures__item--team">
+                                            <span class="fixtures__team--name fixtures__name--right">Manchester United</span>
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Manchester United.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- round 18 -->
+                             <div class="fixtures__epl--item">
+                                <div class="fixtures__item--stadium" style="background-image: linear-gradient(0, rgb(230, 193, 193), rgb(242, 5, 5));">
+                                    <span class="fixtures__item--stadium-name" >Old Transford stadium</span>
+                                </div>
+                                <div class="fixtures__item--content" style="background-image: linear-gradient(to right, #ff0000, #0f0f0f); ">
+                                    <span class="fixtures__item--round">Round 18</span>
+                                    <div class="fixtures__item--main">
+                                        <div class="fixtures__item--team">
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Manchester United.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                            <span class="fixtures__team--name fixtures__name--left">Manchester United</span>
+                                        </div>
+                                        <div class="fixtures__item--encounter">
+                                            <span class="fixtures__item--encounter-text">VS</span>
+                                            <span class="fixtures__item--date">27 - 12</span>
+                                        </div>
+                                        <div class="fixtures__item--team">
+                                            <span class="fixtures__team--name fixtures__name--right">Newcastle United</span>
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Newcastle United.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fixtures__matchs--fa">
+                            <h2 class="fixtures__epl--head">FA Community Shield</h2>
+                            <!-- Third Round Proper -->
+                            <div class="fixtures__epl--item">
+                                <div class="fixtures__item--stadium" style="background-image: linear-gradient(0, rgb(230, 193, 193), rgb(242, 5, 5));">
+                                    <span class="fixtures__item--stadium-name" >---------------------</span>
+                                </div>
+                                <div class="fixtures__item--content" style="background-image: linear-gradient(to right, #fbf9f9, #f81212); ">
+                                    <span class="fixtures__item--round">Third Round Proper</span>
+                                    <div class="fixtures__item--main">
+                                        <div class="fixtures__item--team">
+                                            <div class="fixtures__team--logo">
+                                                <img src="" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                            <span class="fixtures__team--name fixtures__name--left"></span>
+                                        </div>
+                                        <div class="fixtures__item--encounter">
+                                            <span class="fixtures__item--encounter-text">VS</span>
+                                            <span class="fixtures__item--date">10/01/2026</span>
+                                        </div>
+                                        <div class="fixtures__item--team">
+                                            <span class="fixtures__team--name fixtures__name--right" >Manchester United</span>
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Manchester United.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Fourth Round Proper -->
+                             <div class="fixtures__epl--item">
+                                <div class="fixtures__item--stadium" style="background-image: linear-gradient(0, rgb(232, 232, 232), rgb(239, 11, 7));">
+                                    <span class="fixtures__item--stadium-name" >Old Transford stadium</span>
+                                </div>
+                                <div class="fixtures__item--content" style="background-image: linear-gradient(to right, #f20707, #0c5de7); ">
+                                    <span class="fixtures__item--round">Fourth Round Proper</span>
+                                    <div class="fixtures__item--main">
+                                        <div class="fixtures__item--team">
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Manchester United.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                            <span class="fixtures__team--name fixtures__name--left">Manchester United</span>
+                                        </div>
+                                        <div class="fixtures__item--encounter">
+                                            <span class="fixtures__item--encounter-text">VS</span>
+                                            <span class="fixtures__item--date"> 14/02/2026</span>
+                                        </div>
+                                        <div class="fixtures__item--team">
+                                            <span class="fixtures__team--name fixtures__name--right">Leicester City</span>
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Leicester_City_crest.svg_1_optimized.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Fifth Round Proper -->
+                             <div class="fixtures__epl--item">
+                                <div class="fixtures__item--stadium" style="background-image: linear-gradient(0, rgb(230, 193, 193), rgb(242, 5, 5));">
+                                    <span class="fixtures__item--stadium-name" >Old Transford stadium</span>
+                                </div>
+                                <div class="fixtures__item--content" style="background-image: linear-gradient(to right, #ff0000, #0f0f0f); ">
+                                    <span class="fixtures__item--round">Fifth Round Proper</span>
+                                    <div class="fixtures__item--main">
+                                        <div class="fixtures__item--team">
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Manchester United.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                            <span class="fixtures__team--name fixtures__name--left">Manchester United</span>
+                                        </div>
+                                        <div class="fixtures__item--encounter">
+                                            <span class="fixtures__item--encounter-text">VS</span>
+                                            <span class="fixtures__item--date">7/03/2026</span>
+                                        </div>
+                                        <div class="fixtures__item--team">
+                                            <span class="fixtures__team--name fixtures__name--right">Fullham</span>
+                                            <div class="fixtures__team--logo">
+                                                <img src="/asset/img/logo/Fulham FC.png" alt="" class="fixtures__team--logo-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fixtures__contain--bxh">
+                        <div class="fixtures__contain--ranking">
+                            <div class="fixtures__premier--logo"></div>
+                            <div class="fixtures__premier--gradient"></div>
+                            <h2 class="fixtures__premier--cap">PREMIER LEAGUE 25 - 26 SESSON</h2>
+                            <div class="fixtures__contain--rank">
+                                <table class="fixtures__rank--table">
+                                    <thead>
+                                        <tr class="table--lineheight table--lineheight--head">
+                                            <th class="table--head">Pos</th>
+                                            <th class="table--head table__heead--club">Club</th>
+                                            <th class="table--head">P</th>
+                                            <th class="table--head">GD</th>
+                                            <th class="table--head">Pts</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="table--lineheight">
+                                            <td class="fixtures__rank--pos">1</td>
+                                            <td class="fixtures__rank__club">
+                                            <div class="fixtures__rank--logo">
+                                                <img src="/asset/img/logo/Arsenal FC.png" alt="">
+                                            </div>
+                                            <span class="fixtures__rank--name">Arsenal</span>
+                                            </td>
+                                            <td class="fixtures__rank--round">0</td>
+                                            <td class="fixtures__rank--gd">0</td>
+                                            <td class="fixtures__rank--pts">0</td>
+                                        </tr>
+                                        <tr class="table--lineheight">
+                                            <td class="fixtures__rank--pos">2</td>
+                                            <td class="fixtures__rank__club">
+                                            <div class="fixtures__rank--logo">
+                                                <img src="/asset/img/logo/Aston Villa.png" alt="">
+                                            </div>
+                                            <span class="fixtures__rank--name">Aston Villa</span>
+                                            </td>
+                                            <td class="fixtures__rank--round">0</td>
+                                            <td class="fixtures__rank--gd">0</td>
+                                            <td class="fixtures__rank--pts">0</td>
+                                        </tr>
+                                        <tr class="table--lineheight">
+                                            <td class="fixtures__rank--pos">3</td>
+                                            <td class="fixtures__rank__club">
+                                            <div class="fixtures__rank--logo">
+                                                <img src="/asset/img/logo/AFC Bournemouth.png" alt="">
+                                            </div>
+                                            <span class="fixtures__rank--name">Bournemouth</span>
+                                            </td>
+                                            <td class="fixtures__rank--round">0</td>
+                                            <td class="fixtures__rank--gd">0</td>
+                                            <td class="fixtures__rank--pts">0</td>
+                                        </tr>
+                                        <tr class="table--lineheight">
+                                            <td class="fixtures__rank--pos">4</td>
+                                            <td class="fixtures__rank__club">
+                                            <div class="fixtures__rank--logo">
+                                                <img src="/asset/img/logo/Brentford FC.png" alt="">
+                                            </div>
+                                            <span class="fixtures__rank--name">Brentford</span>
+                                            </td>
+                                            <td class="fixtures__rank--round">0</td>
+                                            <td class="fixtures__rank--gd">0</td>
+                                            <td class="fixtures__rank--pts">0</td>
+                                        </tr>
+                                        <tr class="table--lineheight">
+                                            <td class="fixtures__rank--pos">5</td>
+                                            <td class="fixtures__rank__club">
+                                            <div class="fixtures__rank--logo">
+                                                <img src="/asset/img/logo/Brighton & Hove Albion.png" alt="">
+                                            </div>
+                                            <span class="fixtures__rank--name">Brighton</span>
+                                            </td>
+                                            <td class="fixtures__rank--round">0</td>
+                                            <td class="fixtures__rank--gd">0</td>
+                                            <td class="fixtures__rank--pts">0</td>
+                                        </tr>
+                                        <tr class="table--lineheight">
+                                            <td class="fixtures__rank--pos">6</td>
+                                            <td class="fixtures__rank__club">
+                                            <div class="fixtures__rank--logo">
+                                                <img src="/asset/img/logo/Burnley FC.png" alt="">
+                                            </div>
+                                            <span class="fixtures__rank--name">Burnley</span>
+                                            </td>
+                                            <td class="fixtures__rank--round">0</td>
+                                            <td class="fixtures__rank--gd">0</td>
+                                            <td class="fixtures__rank--pts">0</td>
+                                        </tr>
+                                        <tr class="table--lineheight">
+                                            <td class="fixtures__rank--pos">7</td>
+                                            <td class="fixtures__rank__club">
+                                            <div class="fixtures__rank--logo">
+                                                <img src="/asset/img/logo/Chelsea FC.png" alt="">
+                                            </div>
+                                            <span class="fixtures__rank--name">Chelsea</span>
+                                            </td>
+                                            <td class="fixtures__rank--round">0</td>
+                                            <td class="fixtures__rank--gd">0</td>
+                                            <td class="fixtures__rank--pts">0</td>
+                                        </tr>
+                                        <tr class="table--lineheight">
+                                            <td class="fixtures__rank--pos">8</td>
+                                            <td class="fixtures__rank__club">
+                                            <div class="fixtures__rank--logo">
+                                                <img src="/asset/img/logo/Crystal Palace.png" alt="">
+                                            </div>
+                                            <span class="fixtures__rank--name">Crystal Palace</span>
+                                            </td>
+                                            <td class="fixtures__rank--round">0</td>
+                                            <td class="fixtures__rank--gd">0</td>
+                                            <td class="fixtures__rank--pts">0</td>
+                                        </tr>
+                                        <tr class="table--lineheight">
+                                            <td class="fixtures__rank--pos">9</td>
+                                            <td class="fixtures__rank__club">
+                                            <div class="fixtures__rank--logo">
+                                                <img src="/asset/img/logo/Everton FC.png" alt="">
+                                            </div>
+                                            <span class="fixtures__rank--name">Everton</span>
+                                            </td>
+                                            <td class="fixtures__rank--round">0</td>
+                                            <td class="fixtures__rank--gd">0</td>
+                                            <td class="fixtures__rank--pts">0</td>
+                                        </tr>
+                                        <tr class="table--lineheight">
+                                            <td class="fixtures__rank--pos">10</td>
+                                            <td class="fixtures__rank__club">
+                                            <div class="fixtures__rank--logo">
+                                                <img src="/asset/img/logo/Fulham FC.png" alt="">
+                                            </div>
+                                            <span class="fixtures__rank--name">Fulham</span>
+                                            </td>
+                                            <td class="fixtures__rank--round">0</td>
+                                            <td class="fixtures__rank--gd">0</td>
+                                            <td class="fixtures__rank--pts">0</td>
+                                        </tr>
+                                        <tr class="table--lineheight">
+                                            <td class="fixtures__rank--pos">11</td>
+                                            <td class="fixtures__rank__club">
+                                            <div class="fixtures__rank--logo">
+                                                <img src="/asset/img/logo/Leeds United.png" alt="">
+                                            </div>
+                                            <span class="fixtures__rank--name">Leeds</span>
+                                            </td>
+                                            <td class="fixtures__rank--round">0</td>
+                                            <td class="fixtures__rank--gd">0</td>
+                                            <td class="fixtures__rank--pts">0</td>
+                                        </tr>
+                                        <tr class="table--lineheight">
+                                            <td class="fixtures__rank--pos">12</td>
+                                            <td class="fixtures__rank__club">
+                                            <div class="fixtures__rank--logo">
+                                                <img src="/asset/img/logo/Liverpool FC.png" alt="">
+                                            </div>
+                                            <span class="fixtures__rank--name">Liverpool</span>
+                                            </td>
+                                            <td class="fixtures__rank--round">0</td>
+                                            <td class="fixtures__rank--gd">0</td>
+                                            <td class="fixtures__rank--pts">0</td>
+                                        </tr>
+                                        <tr class="table--lineheight">
+                                            <td class="fixtures__rank--pos">13</td>
+                                            <td class="fixtures__rank__club">
+                                            <div class="fixtures__rank--logo">
+                                                <img src="/asset/img/logo/Manchester City.png" alt="">
+                                            </div>
+                                            <span class="fixtures__rank--name">Man City</span>
+                                            </td>
+                                            <td class="fixtures__rank--round">0</td>
+                                            <td class="fixtures__rank--gd">0</td>
+                                            <td class="fixtures__rank--pts">0</td>
+                                        </tr>
+                                        <tr class="table--lineheight">
+                                            <td class="fixtures__rank--pos">14</td>
+                                            <td class="fixtures__rank__club">
+                                            <div class="fixtures__rank--logo">
+                                                <img src="/asset/img/logo/Manchester United.png" alt="">
+                                            </div>
+                                            <span class="fixtures__rank--name">Man Utd</span>
+                                            </td>
+                                            <td class="fixtures__rank--round">0</td>
+                                            <td class="fixtures__rank--gd">0</td>
+                                            <td class="fixtures__rank--pts">0</td>
+                                        </tr>
+                                        <tr class="table--lineheight">
+                                            <td class="fixtures__rank--pos">15</td>
+                                            <td class="fixtures__rank__club">
+                                            <div class="fixtures__rank--logo">
+                                                <img src="/asset/img/logo/Newcastle United.png" alt="">
+                                            </div>
+                                            <span class="fixtures__rank--name">Newcastle</span>
+                                            </td>
+                                            <td class="fixtures__rank--round">0</td>
+                                            <td class="fixtures__rank--gd">0</td>
+                                            <td class="fixtures__rank--pts">0</td>
+                                        </tr>
+                                        <tr class="table--lineheight">
+                                            <td class="fixtures__rank--pos">16</td>
+                                            <td class="fixtures__rank__club">
+                                            <div class="fixtures__rank--logo">
+                                                <img src="/asset/img/logo/Nottingham Forest.png" alt="">
+                                            </div>
+                                            <span class="fixtures__rank--name">Nott'm Forest</span>
+                                            </td>
+                                            <td class="fixtures__rank--round">0</td>
+                                            <td class="fixtures__rank--gd">0</td>
+                                            <td class="fixtures__rank--pts">0</td>
+                                        </tr>
+                                        <tr class="table--lineheight">
+                                            <td class="fixtures__rank--pos">17</td>
+                                            <td class="fixtures__rank__club">
+                                            <div class="fixtures__rank--logo">
+                                                <img src="/asset/img/logo/Sunderland AFC.png" alt="">
+                                            </div>
+                                            <span class="fixtures__rank--name">Sunderland</span>
+                                            </td>
+                                            <td class="fixtures__rank--round">0</td>
+                                            <td class="fixtures__rank--gd">0</td>
+                                            <td class="fixtures__rank--pts">0</td>
+                                        </tr>
+                                        <tr class="table--lineheight">
+                                            <td class="fixtures__rank--pos">18</td>
+                                            <td class="fixtures__rank__club">
+                                            <div class="fixtures__rank--logo">
+                                                <img src="/asset/img/logo/Tottenham Hotspur.png" alt="">
+                                            </div>
+                                            <span class="fixtures__rank--name">Spurs</span>
+                                            </td>
+                                            <td class="fixtures__rank--round">0</td>
+                                            <td class="fixtures__rank--gd">0</td>
+                                            <td class="fixtures__rank--pts">0</td>
+                                        </tr>
+                                        <tr class="table--lineheight">
+                                            <td class="fixtures__rank--pos">19</td>
+                                            <td class="fixtures__rank__club">
+                                            <div class="fixtures__rank--logo">
+                                                <img src="/asset/img/logo/West Ham United.png" alt="">
+                                            </div>
+                                            <span class="fixtures__rank--name">West Ham</span>
+                                            </td>
+                                            <td class="fixtures__rank--round">0</td>
+                                            <td class="fixtures__rank--gd">0</td>
+                                            <td class="fixtures__rank--pts">0</td>
+                                        </tr>
+                                        <tr class="table--lineheight">  
+                                            <td class="fixtures__rank--pos">20</td>
+                                            <td class="fixtures__rank__club">
+                                            <div class="fixtures__rank--logo">
+                                                <img src="/asset/img/logo/Wolverhampton Wanderers.png" alt="">
+                                            </div>
+                                            <span class="fixtures__rank--name">Wolves</span>
+                                            </td>
+                                            <td class="fixtures__rank--round">0</td>
+                                            <td class="fixtures__rank--gd">0</td>
+                                            <td class="fixtures__rank--pts">0</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </main>
+        <!-- Footer -->
+        <footer class="footer">
+
+            <div class="footer__main grid wide">
+                <div class="footer__fanpage row l-4 hide--on-mobile-tablet">
+                    <div class="footer__fanpage--logo"></div>
+                    <div class="footer__fanpage--list">
+                        <div class="footer__fanpage--item">
+                            <a href="https://web.facebook.com/manchesterunited" class="fanpage__item--link"><i class="fanpage__item--icon fa-brands fa-facebook"></i>Facebook</a>
+                        </div>
+                        <div class="footer__fanpage--item">
+                            <a href="https://www.instagram.com/manchesterunited/" class="fanpage__item--link"><i class="fanpage__item--icon fa-brands fa-square-instagram"></i>Instagram</a>
+                        </div>
+                        <div class="footer__fanpage--item">
+                            <a href="https://www.youtube.com/@manutd" class="fanpage__item--link"><i class="fanpage__item--icon fa-brands fa-youtube"></i>Youtube</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer__owner row l-8 m-12 c-12">
+                    <h2 class="footer__owner--heading">Cảm ơn bạn đã ghé xem trang web</h2>
+                    <p class="footer__owner--text">Mọi thông tin về bản quyền vui lòng liên hệ với tôi</p>
+                    <div class="footer__owner--user">
+                        <div class="footer__owner--contact">
+                            <p class="owner__contact--item"><b>Email:</b> quynguyen.19122004@gmail.com</p>
+                            <p class="owner__contact--item"><b>Phone:</b> 0829746325</p>
+                            <p href="" class="owner__contact--item"><a href="https://web.facebook.com/nguyen.van.quy.263032"><i class="owner__contact--icon fa-brands fa-facebook"></i>Nguyễn Văn Quý</a></p>
+                            <p href="" class="owner__contact--item"><a href="https://www.instagram.com/quyy_19/"><i class="owner__contact--icon fa-brands fa-square-instagram"></i>quyy_19</a></p>
+                        </div>
+                        <div class="footer__contact--manage">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+    
+
+</body>
+</html>

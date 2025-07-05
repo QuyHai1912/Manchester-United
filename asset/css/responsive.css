@@ -1,0 +1,271 @@
+/* mobile & tablet */
+@media (max-width: 1023.9px){
+    .hide--on-mobile-tablet {
+        display: none !important;
+    }
+    /* ------------nav__bar------------- */
+
+    .nav__bottom {
+        justify-content: flex-end;
+    }
+
+    /* -------web__contain------ */
+    .web__contain--content.grid.wide {
+        width: 100%;
+        border-radius: 0;
+        margin-top: 50px;
+    }
+
+    
+    .contain__information--logo {
+        width: 330px;
+        height: 330px;
+    }
+
+    .contain__information--logo:hover {
+        transform: scale(1.1);
+        height: 330px;
+        width: 330px;
+    }
+
+    .contain__information--team.col {
+        padding-left: 20px;
+    }
+
+    .web__champion--items {
+        height: 300px;
+    }
+    
+    .web__champion--item {
+        height: 220px;
+        background-position-y: 0px;
+    }
+
+    .web__champion--item:hover {
+        height: 240px;
+    }
+
+    .web__champion--item:hover > .champion--img {
+        display: none;
+    }
+}
+/* tablet */
+
+@media (min-width: 740px) and (max-width: 1023.9px){
+    .hide--on-tablet {
+        display: none;
+    }
+    /* ------------nav__bar------------- */
+    .greeting--text {
+        text-align: right;
+        font-size: 4rem;
+    }
+
+    /*------------- main__contain--content----------*/
+    .web__contain {
+        padding: 0;
+    }
+    
+    .web__champion--list {
+        height: 250px;
+    }
+
+    .champion--list-item {
+        height: 180px;
+    }
+
+    .champion--list-item:hover {
+        height: 200px;
+    }
+
+    .champion--list-item:hover .champion--item-img {
+        display: none;
+    }
+    
+
+
+    /* ------------footer------------ */
+
+}
+/* mobile */
+@media (max-width: 740px){
+    .hide--on-mobile {
+        display: none;
+    }
+    /* ------------nav__bar------------- */
+    .nav__bar {
+        height: 110px;
+    }
+
+    .nav__logo {
+        height: 80px;
+        width: 80px;
+    }
+
+    .nav__greeting {
+        justify-content: flex-end;
+    }
+
+    .nav__category {
+        margin: 0 0 5px 0;
+    }
+
+    .category--items {
+        width: 85px;
+        padding-left: 0;
+    }
+
+    .user__list {
+        top: -10px;
+        right: 100px;
+        animation: headerNotify 0.5s ease;
+        transform-origin: 100% 50%;
+    }
+
+    .user__list::before {
+        top: 20px;
+        right: -18px;
+        border-color: transparent transparent transparent var(--white-color);
+    }
+
+    .header {
+        margin-top: 110px;
+        height: 250px;
+    }
+    /* ------------------header-------------- */
+
+    .slider-track img {
+        height: 250px;
+    }
+    /* ------modal------- */
+    .modal__register,
+    .modal__login {
+        width: 390px;
+    }
+
+    /* -----------web__contain---------- */
+    .web__contain {
+        padding-top: 0;
+    }
+    .contain__information--team.col {
+        height: 500px;
+    }
+    
+    .champion--text {
+        left: 20px;
+    }
+
+    .champion--text-year {
+        font-size: 1.2rem;
+        width: 300px;
+    }
+    .champion--text-heading {
+        font-size: 2rem;
+    }
+
+    .champion--item-year,
+    .champion--item-headeing {
+        padding-left: 20px;
+    }
+
+    .champion--item-headeing {
+        font-size: 2rem;
+    }
+
+    .champion--item-year {
+        font-size: 1.2rem;
+        margin-top: 10px;
+    }
+
+    .champion--list-item {
+        height: 170px;
+    }
+
+    .champion--list-item:hover {
+        height: 180px;
+    }
+
+    .champion--list-item:hover .champion--item-img {
+        display: none;
+    }
+
+    /* ------------footer------------ */
+    .footer__owner--user {
+        position: relative;
+    }
+    
+    .footer__contact--manage {
+        height: 200px;
+        height: 145px;
+        width: 120px;
+        position: absolute;
+        bottom: 0;
+        right: 20px;
+    }
+
+    .footer__owner.row {
+        padding-left: 10px;
+    }
+
+    .footer__owner--heading {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    .owner__contact--item {
+        padding-left: 10px;
+    }
+
+    .footer__owner--text {
+        font-size: 1.5rem;
+    }
+}
+
+/* tablet & pc */
+
+@media (min-width: 740px){
+    
+}
+
+/* pc-low */
+
+@media (min-width: 1024px) and (max-width: 1380px){
+    .hide--on-pc-low {
+        display: none;
+    }
+    /* ------------nav__bar------------- */
+
+    .greeting--text {
+        text-align: right;
+        padding-right: 50px;
+    }
+
+    .nav__preface {
+        display: none;
+    }
+
+    .nav__bottom {
+        justify-content: flex-end;
+    }
+}
+
+/* pc */
+@media (max-width: 1113px) and (min-width: 1024px){
+    .hide--on-pc {
+        display: none;
+    }
+    /* ------------nav__bar------------- */
+    
+    .greeting--text > span {
+        display: none;
+    }
+
+    /*  */
+}
+
+
+/* pc High configuration */
+
+@media (min-width: 1380.1px){
+    
+}
